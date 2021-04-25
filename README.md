@@ -1,2 +1,2 @@
-# cooking-on-fire-ig
+# Cooking on Fire
 FHIR implementation guide for the *Cooking on Fire* app

@@ -1,0 +1,35 @@
+id: cookingonfire.fhir
+canonical: http://cooking-on-fire.ch/fhir
+url: http://cooking-on-fire/fhir/ImplementationGuide/cookingonfire.fhir
+name: CookingOnFire_FHIR
+title: "Cooking on Fire (R4)"
+description: FHIR implementation guide for the 'Cooking on Fire' app
+status: draft
+license: Apache-2.0
+date: 2021-04-25
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: CI Build
+publisher:
+  name: Experimental Kitchen
+  url: https://github.com/experimental-kitchen
+contact:
+  - name: Michaela Ziegler
+    telecom:
+      - system: email
+        value: michaela1.ziegler@gmail.com
+
+pages:
+  index.md:
+    title: Home
+  profiles.html:
+    title: Profiles
+  extensions.html:
+    title: Extensions
+  terminology.html:
+    title: Terminology
+
+parameters:
+  excludettl: true
+  #validation: [allow-any-extensions, no-broken-links]

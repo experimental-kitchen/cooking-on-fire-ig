@@ -1,0 +1,4 @@
+== Suppressed Messages ==
+
+# Updated soon
+WARNING: StructureDefinition.where(url = 'http://cooking-on-fire.ch/fhir/StructureDefinition/cookingonfire-organization'): The Implementation Guide contains no examples for this profile

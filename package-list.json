@@ -1,0 +1,24 @@
+{
+  "package-id": "cookingonfire.fhir",
+  "title": "Cooking on Fire (R4)",
+  "canonical": "http://cooking-on-fire.ch/fhir",
+  "introduction": "FHIR implementation guide for the 'Cooking on Fire' app",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "http://build.fhir.org/ig/experimental-kitchen/cooking-on-fire-ig",
+      "status": "ci-build",
+      "current" : true
+    },
+    {
+      "version": "0.1.0",
+      "date": "2021-04-25",
+      "desc": "DSTU 1",
+      "path": "http://cooking-on-fire.ch/fhir/0.1.0",
+      "status": "trial-use",
+      "sequence" : "DSTU 1",
+      "fhirversion": "4.0.1"
+    }
+  ]
+}
