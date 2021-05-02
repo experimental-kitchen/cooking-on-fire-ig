@@ -1,9 +1,15 @@
-Profile: CookingOnFireOrganization
+Profile: CoFOrganization
 Parent: Organization
-Id: cookingonfire-organization
-Title: "Cooking on Fire Organization"
-Description: "Cooking on Fire Organization"
-* . ^short = "Cooking on Fire Organization"
-* name MS
+Id: cof-organization
+Title: "CoF Organization"
+Description: "Profile of the household"
+* . ^short = "Household aka CoF Organization"
+* name 1.. MS
 
 // ============================== Examples ============================== //
+
+Instance: HouseholdCook
+InstanceOf: CoFOrganization
+Title: "Household Cook"
+Description: "Example of a household (CoF Organization)"
+* name = "Household Cook"

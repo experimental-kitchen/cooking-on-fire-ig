@@ -23,6 +23,8 @@ contact:
 pages:
   index.md:
     title: Home
+  usecases.md:
+    title: Use cases
   profiles.html:
     title: Profiles
   extensions.html:

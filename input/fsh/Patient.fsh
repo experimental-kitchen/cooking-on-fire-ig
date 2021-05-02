@@ -1,16 +1,24 @@
-Profile: CookingOnFirePatient
+Profile: CoFPatient
 Parent: Patient
-Id: cookingonfire-patient
-Title: "Cooking on Fire Patient"
-Description: "Cooking on Fire Patient"
-* . ^short = "Cooking on Fire Patient"
+Id: cof-patient
+Title: "CoF Patient"
+Description: "Profile of the guest"
+* . ^short = "Guest aka CoF Patient"
 * name and name.family and name.given MS
 
 // ============================== Examples ============================== //
 
-Instance: MichaelaZiegler
-InstanceOf: CookingOnFirePatient
-Title: "Michaela Ziegler"
-Description: "Example for Patient"
-* name.family = "Ziegler"
-* name.given = "Michaela"
+Instance: Milja
+InstanceOf: CoFPatient
+Title: "Milja"
+Description: "Example of a guest (CoF Patient)"
+* name.family = "Cook"
+* name.given = "Milja"
+
+
+Instance: Ron
+InstanceOf: CoFPatient
+Title: "Ron"
+Description: "Example of a guest (CoF Patient)"
+* name.family = "Cook"
+* name.given = "Ron"
