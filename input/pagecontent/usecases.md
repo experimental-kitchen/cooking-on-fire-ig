@@ -1,6 +1,6 @@
 
 ### Cooking on Fire
-The Cook family enjoys cooking and does so almost daily. Ron and Milja use the app **Cooking on Fire** to manage their recipes. In addition to the recipe database, the app also offers the option of creating a menu plan and a shopping list.   
+The Cook family enjoys cooking and does so almost daily. Ron and Milja use the app 'Cooking on Fire' to manage their recipes. In addition to the recipe database, the app also offers the option of creating a menu plan and a shopping list.   
 Milja and Ron also like to cook for friends. Unfortunately, not all guests like everything or are even allergic to certain foods. The app makes it possible to record these preferences.
 
 #### Instances and roles
@@ -22,7 +22,7 @@ Milja and Ron also like to cook for friends. Unfortunately, not all guests like 
 {% include img.html img="patient.png" caption="Fig.: Guest with its references" width="25%" %}
 
 ### Enter recipe
-Milja Cook enters a new [recipe for an asparagus tart](PlanDefinition-SpargeltarteMitBresaola.html) in the **Cooking on Fire** app. She enters the ingredients and the different steps for cooking. The preparation time or remarks can also be entered.
+Milja Cook enters a new [recipe for an asparagus tart](PlanDefinition-SpargeltarteMitBresaola.html) in the 'Cooking on Fire' app. She enters the ingredients and the different steps for cooking. The preparation time or remarks can also be entered.
 
 {% include img.html img="plandefinition.png" caption="Fig.: Recipe with its references" width="25%" %}
 

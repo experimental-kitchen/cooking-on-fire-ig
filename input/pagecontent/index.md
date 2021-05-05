@@ -1,4 +1,8 @@
-### TBD
+### Introduction
+The 'Cooking on Fire' implementation guide describes the FHIR representation of a household's cooking recipes, including ingredients, steps and additional information. The members of a household can be cooks who cook according to these recipes, but also guests who enjoy the delicious menu. Cooking for people who do not live in the same household is also illustrated. It shows the guests' likes and dislikes of food and when they have visited.
 
-TBD
+### FHIR as recipe
+[FHIR®](https://www.hl7.org/fhir/) - **F**ast **H**ealthcare **I**nteroperability **R**esources - is a standard for health care data exchange, published by [HL7®](http://www.hl7.org/). As cooking and of course eating is an elementary part of healthcare, FHIR was chosen to map the data for the 'Cooking on Fire' app. To be honest, however, this was not the main reason for choosing FHIR. The development team works with this standard on a daily basis and wanted to let off a little steam in an [experimental kitchen](https://github.com/experimental-kitchen) and show that FHIR is also fun for cooking. Even though [SUSHI](https://fshschool.org/docs/sushi/) is not cooked on fire, the implementation guide was prepared with [F(i)SH](https://fshschool.org/).
 
+### Cooking and eating together
+The development of the app 'Cooking on Fire' is purely for private use. Friends, cooking and FHIR enthusiasts are welcome to [join in](https://github.com/experimental-kitchen/cooking-on-fire/wiki/Architecture#friends--colleagues) the cooking on fire. If the app is tested and a yummy menu comes out of it, the [development team](https://github.com/orgs/experimental-kitchen/people) will of course be happy to come by and taste the menu.
