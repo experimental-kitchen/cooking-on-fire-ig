@@ -1,0 +1,99 @@
+@host = http://hapi.fhir.org/baseR4
+
+
+#################### Asparagus tart with bresaola ####################
+
+### PlanDefinition
+PUT {{host}}/PlanDefinition/a05feeec-019a-4e29-ad2b-b7c3b3940f49 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-a05feeec-019a-4e29-ad2b-b7c3b3940f49.json
+
+### ActivityDefinition 1
+PUT {{host}}/ActivityDefinition/d1beee57-bf0f-422d-8767-e5286c872b3e HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-d1beee57-bf0f-422d-8767-e5286c872b3e.json
+
+### ActivityDefinition 2
+PUT {{host}}/ActivityDefinition/29e81bac-926f-40b3-a3f8-503d320ac5fe HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-29e81bac-926f-40b3-a3f8-503d320ac5fe.json
+
+### ActivityDefinition 3
+PUT {{host}}/ActivityDefinition/87d278ce-8f18-4059-82c1-83f027852286 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-87d278ce-8f18-4059-82c1-83f027852286.json
+
+### Substance 1
+PUT {{host}}/Substance/40c44b70-ef56-4d06-ae59-fc2c813d866a HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-40c44b70-ef56-4d06-ae59-fc2c813d866a.json
+
+### Substance 2
+PUT {{host}}/Substance/7f18f11f-f85f-4801-a012-076ac23fd449 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-7f18f11f-f85f-4801-a012-076ac23fd449.json
+
+### Substance 3
+PUT {{host}}/Substance/1e22f1e0-e100-423b-8735-2ec0579dbfa2 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-1e22f1e0-e100-423b-8735-2ec0579dbfa2.json
+
+
+#################### Spinach lasagne ####################
+
+### PlanDefinition
+PUT {{host}}/PlanDefinition/2bd95802-2006-484f-b01d-ab86b53608bd HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-2bd95802-2006-484f-b01d-ab86b53608bd.json
+
+### ActivityDefinition 1
+PUT {{host}}/ActivityDefinition/1a2216a0-f85f-4090-9dc2-9dd3976dfbc0 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-1a2216a0-f85f-4090-9dc2-9dd3976dfbc0.json
+
+### ActivityDefinition 2
+PUT {{host}}/ActivityDefinition/befca50c-edfd-41fb-a5a9-af52b86a8136 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-befca50c-edfd-41fb-a5a9-af52b86a8136.json
+
+### ActivityDefinition 3
+PUT {{host}}/ActivityDefinition/15dc8022-cf7e-49c3-ac53-c0a4349a63ae HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/ActivityDefinition-15dc8022-cf7e-49c3-ac53-c0a4349a63ae.json
+
+### Substance 1
+PUT {{host}}/Substance/303e7091-7bc0-4151-a0ec-8d587c9d8c63 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-303e7091-7bc0-4151-a0ec-8d587c9d8c63.json
+
+### Substance 2
+PUT {{host}}/Substance/b028381e-de52-4b84-9979-fe4ef53cfe4c HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-b028381e-de52-4b84-9979-fe4ef53cfe4c.json
+
+### Substance 3
+PUT {{host}}/Substance/1f43d6fd-93c6-44de-8e03-7a06b8f8a297 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Substance-1f43d6fd-93c6-44de-8e03-7a06b8f8a297.json
+
+
+##################################################################################################################
+
+
+### Recipes of the "logged in" household
+GET {{host}}/PlanDefinition?publisher=Household Cook&status=active HTTP/1.1
+Content-Type: application/fhir+json

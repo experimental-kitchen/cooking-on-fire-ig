@@ -1,4 +1,9 @@
 == Suppressed Messages ==
 
-# Updated soon
-WARNING: StructureDefinition.where(url = 'http://cooking-on-fire.ch/fhir/StructureDefinition/cof-organization'): The Implementation Guide contains no examples for this profile
+# Example are integrated in the instances, where this data type is used
+WARNING: StructureDefinition.where(url = 'http://cooking-on-fire.ch/fhir/StructureDefinition/cof-quantity'): The Implementation Guide contains no examples for this data type profile
+WARNING: StructureDefinition.where(url = 'http://cooking-on-fire.ch/fhir/StructureDefinition/cof-ratio'): The Implementation Guide contains no examples for this data type profile
+
+# No support of the element name (computer friendly)
+adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed

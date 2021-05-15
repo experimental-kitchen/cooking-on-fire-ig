@@ -4,52 +4,63 @@ Id: cof-activitydefinition
 Title: "CoF ActivityDefinition"
 Description: "Profile of the recipe step"
 * . ^short = "Recipe step aka CoF ActivityDefinition"
-* url MS
-* version MS
-* name MS
-* title MS
 * status MS
-* date MS
-* publisher MS
-* contact and contact.name and contact.telecom MS
-* contact.telecom.system and contact.telecom.value MS
-* description MS
+* description 1.. MS
+* description ^short = "Description of the activity in this recipe step"
 * productReference MS
 * productReference only Reference(CoFSubstance)
+* productReference ^short = "Product of this recipe step"
 
-// ============================== Examples ============================== //
 
-Instance: SpargeltarteMitBresaolaSchritt1
+// ============================== Example Asparagus tart with bresaola ============================== //
+
+Instance: d1beee57-bf0f-422d-8767-e5286c872b3e
 InstanceOf: CoFActivityDefinition
-Title: "Asparagus tart with bresaola - Step 1"
+Title: "Asparagus tart with bresaola - 1. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
-* name = "Schritt1"
-* title = "Schritt 1"
 * status = #active
-* date = "2021-04-28T20:00:00.000+02:00"
 * description = "Teig auf ein mit Backpapier belegtes Blech legen. Joghurt darauf verteilen."
-* productReference = Reference(SpargeltarteMitBresaolaSchritt1Zutaten)
+* productReference = Reference(40c44b70-ef56-4d06-ae59-fc2c813d866a)
 
-
-Instance: SpargeltarteMitBresaolaSchritt2
+Instance: 29e81bac-926f-40b3-a3f8-503d320ac5fe
 InstanceOf: CoFActivityDefinition
-Title: "Asparagus tart with bresaola - Step 2"
+Title: "Asparagus tart with bresaola - 2. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
-* name = "Schritt2"
-* title = "Schritt 2"
 * status = #active
-* date = "2021-04-28T20:00:00.000+02:00"
-* description = "Unteren hölzernen Teil der Spargeln wegschneiden und Spargel schräg in Stücke schneiden. Basilikum fein schneiden. Mit dem Öl mischen, würzen und auf dem Teig verteilen."
-* productReference = Reference(SpargeltarteMitBresaolaSchritt2Zutaten)
+* description = "Unteren hölzernen Teil der Spargeln wegschneiden und schräg in Stücke schneiden. 1/2 Bund Basilikum fein schneiden. Beides mit dem Öl mischen, würzen, auf dem Teig verteilen."
+* productReference = Reference(7f18f11f-f85f-4801-a012-076ac23fd449)
 
-
-Instance: SpargeltarteMitBresaolaSchritt3
+Instance: 87d278ce-8f18-4059-82c1-83f027852286
 InstanceOf: CoFActivityDefinition
-Title: "Asparagus tart with bresaola - Step 3"
+Title: "Asparagus tart with bresaola - 3. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
-* name = "Schritt3"
-* title = "Schritt 3"
 * status = #active
-* date = "2021-04-28T20:00:00.000+02:00"
-* description = "Ca. 30 Min. auf der untersten Rille des auf 220 Grad vorgeheizten Ofens backen. Herausnehmen, Bresaola und Basilikum darauf verteilen."
-* productReference = Reference(SpargeltarteMitBresaolaSchritt3Zutaten)
+* description = "Ca. 30 min auf der untersten Rille des auf 220 Grad vorgeheizten Ofens backen. Herausnehmen, Bresaola und restlichen Basilikum darauf verteilen."
+* productReference = Reference(1e22f1e0-e100-423b-8735-2ec0579dbfa2)
+
+
+// ============================== Example Spinach lasagne ============================== //
+
+Instance: 1a2216a0-f85f-4090-9dc2-9dd3976dfbc0
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 1. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+* status = #active
+* description = "Füllung: Zwiebeln und Knoblauch andämpfen. Steinpilze mitbraten. Spinat und Rüebli kurz mitdämpfen, würzen."
+* productReference = Reference(303e7091-7bc0-4151-a0ec-8d587c9d8c63)
+
+Instance: befca50c-edfd-41fb-a5a9-af52b86a8136
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 2. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+* status = #active
+* description = "Sauce: Alle Zutaten bis und mit Bouillon unter ständigem Rühren aufkochen. Bei kleiner Hitze 3 Minuten köcheln. Rahm und gut die Hälfte des Käses beifügen, würzen."
+* productReference = Reference(b028381e-de52-4b84-9979-fe4ef53cfe4c)
+
+Instance: 15dc8022-cf7e-49c3-ac53-c0a4349a63ae
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 3. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+* status = #active
+* description = "Lagenweise Sauce, Füllung und Lasagneblätter in die vorbereitete Form schichten, mit Sauce abschliessen, mit restlichem Käse bestreuen. In der Mitte des auf 200°C vorgeheizten Ofens 40-45 Minuten gratinieren."
+* productReference = Reference(1f43d6fd-93c6-44de-8e03-7a06b8f8a297)
