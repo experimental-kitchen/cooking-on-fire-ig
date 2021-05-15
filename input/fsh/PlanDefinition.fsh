@@ -38,6 +38,7 @@ Description: "Profile of the recipe"
 * topic[season] from CoFSeason
 
 * relatedArtifact 0..1 MS
+* relatedArtifact ^short = "Photo of the dish"
 * relatedArtifact.type MS
 * relatedArtifact.type = #documentation
 * relatedArtifact.url 1.. MS
