@@ -27,7 +27,7 @@ InstanceOf: CoFActivityDefinition
 Title: "Asparagus tart with bresaola - 2. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
 * status = #active
-* description = "Unteren hölzernen Teil der Spargeln wegschneiden und schräg in Stücke schneiden. 1/2 Bund Basilikum fein schneiden. Beides mit dem Öl mischen, würzen, auf dem Teig verteilen."
+* description = "Unteres Drittel der Spargeln schälen und Spargeln schräg in Stücke schneiden. 1/2 Bund Basilikum fein schneiden. Beides mit dem Öl mischen, würzen, auf dem Teig verteilen."
 * productReference = Reference(7f18f11f-f85f-4801-a012-076ac23fd449)
 
 Instance: 87d278ce-8f18-4059-82c1-83f027852286
