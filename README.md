@@ -1,11 +1,11 @@
 # Cooking on Fire
-## FHIR implementation guide (IG)
-The 'Cooking on Fire' implementation guide describes the FHIR representation of a household's cooking recipes, including ingredients, steps and additional information. The members of a household can be cooks who cook according to these recipes, but also guests who enjoy the delicious menu. Cooking for people who do not live in the same household is also illustrated. It shows the guests' likes and dislikes of food and when they have visited.
+## FHIR IG
+The 'Cooking on Fire' implementation guide (IG) describes the FHIR representation of a household's cooking recipes, including ingredients, steps and additional information. The members of a household can be cooks who cook according to these recipes, but also guests who enjoy the delicious menu. Cooking for people who do not live in the same household is also illustrated. It shows the guests' likes and dislikes of food and when they have visited.
 
 ## Supporting information for development
 * [Mapping of the data elements](https://docs.google.com/spreadsheets/d/1cM8zTuKRDJHVVYUf_UWtyd8ImTYp2xOCVVX0WzpE_hI/edit#gid=0)
 
-## Local build of the implementation guide
+## Local build of the IG
 As there is currently no CI build and no published version for this implementation guide, the IG must be built locally.   
 Below is a short description of how this can be done.
 
@@ -24,3 +24,9 @@ Below is a short description of how this can be done.
    * Validation results (QA quality assurance): `.\cooking-on-fire-ig\output\qa.html`
    
 
+## Validate a resource against the IG
+You can check your example against the specification of this IG using the [FHIR validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator).
+
+* Get the latest [FHIR validator](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) from https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar.
+* Validate the resource against a specified profile (e.g. 'CoF PlanDefinition' for a recipe):   
+  `java -jar validator_cli.jar [file path] -version 4.0.1 -ig output -profile http://cooking-on-fire.ch/fhir/StructureDefinition/cof-plandefinition`
