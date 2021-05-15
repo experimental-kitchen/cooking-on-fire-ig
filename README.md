@@ -15,7 +15,7 @@ Below is a short description of how this can be done.
    * Install Java as described [here](https://www.java.com/en/download/help/download_options.html)
    * Install SUSHI (and Node.js) as described [here](https://fshschool.org/docs/sushi/installation/)
 * Clone this GitHub repository to a local folder:   
-  `git clone https://github.com/experimental-kitchen/cooking-on-fire-ig.git`
+  ```git clone https://github.com/experimental-kitchen/cooking-on-fire-ig.git```
 * Get the latest [IG publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) from https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar. 
    * Make sure you are always working with the lastest publisher 
    * Put the *publisher.jar* in the main directory of the cloned project
@@ -25,9 +25,9 @@ Below is a short description of how this can be done.
    * Validation results (QA quality assurance): `.\cooking-on-fire-ig\output\qa.html`
    
 
-## Validate a resource against the IG
+### Validate a resource against the IG
 You can check your example against the specification of this IG using the [FHIR validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator).
 
 * Get the latest [FHIR validator](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) from https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar.
 * Validate the resource against a specified profile (e.g. 'CoF PlanDefinition' for a recipe):   
-  `java -jar validator_cli.jar [file path] -version 4.0.1 -ig output -profile http://cooking-on-fire.ch/fhir/StructureDefinition/cof-plandefinition`
+  ```java -jar validator_cli.jar [file path] -version 4.0.1 -ig output -profile http://cooking-on-fire.ch/fhir/StructureDefinition/cof-plandefinition```
