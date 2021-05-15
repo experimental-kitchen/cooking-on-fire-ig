@@ -18,7 +18,7 @@ Title: "Milja Cook"
 Description: "Example of a cook (CoF Practitioner)"
 * name.family = "Cook"
 * name.given = "Milja"
-* photo.url = "https://github.com/experimental-kitchen/cooking-on-fire-ig/blob/main/input/images/miljacook.png?raw=true"
+* photo.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/miljacook.png"
 
 
 Instance: RonCook
@@ -27,4 +27,4 @@ Title: "Ron Cook"
 Description: "Example of a cook (CoF Practitioner)"
 * name.family = "Cook"
 * name.given = "Ron"
-* photo.url = "https://github.com/experimental-kitchen/cooking-on-fire-ig/blob/main/input/images/roncook.png?raw=true"
+* photo.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/roncook.png"
