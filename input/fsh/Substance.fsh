@@ -12,6 +12,7 @@ Description: "Profile of the product of a recipe step"
 * ingredient.quantity.numerator MS
 * ingredient.quantity.denominator MS
 * ingredient.substanceCodeableConcept 1.. MS
+* ingredient.substanceCodeableConcept.extension contains CoFComment named comment 0..1 MS
 * ingredient.substanceCodeableConcept.text 1.. MS
 
 
@@ -26,6 +27,7 @@ Description: "Example of a product of a recipe step (CoF Substance)"
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(ca. 25 x 48 cm)"
 * ingredient[=].substanceCodeableConcept.text = "ausgewallter Kuchenteig rechteckig"
 
 * ingredient[+].quantity.numerator.value = 150
@@ -98,11 +100,13 @@ Description: "Example of a product of a recipe step (CoF Substance)"
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "fein gehackt"
 * ingredient[=].substanceCodeableConcept.text = "Zwiebel"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "gepresst"
 * ingredient[=].substanceCodeableConcept.text = "Knoblauchzehe"
 
 * ingredient[+].quantity.numerator.value = 40
@@ -115,18 +119,21 @@ Description: "Example of a product of a recipe step (CoF Substance)"
 * ingredient[=].quantity.numerator = CoFUnits#kg "Kilogramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "blanchiert"
 * ingredient[=].substanceCodeableConcept.text = "Spinat"
 
 * ingredient[+].quantity.numerator.value = 200
 * ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "geschält, klein gewürfelt"
 * ingredient[=].substanceCodeableConcept.text = "Rüebli"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnits#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "getrocknet, oder frisch und gehackt"
 * ingredient[=].substanceCodeableConcept.text = "Majoran"
 
 * ingredient[+].substanceCodeableConcept.text = "Salz"
@@ -174,6 +181,7 @@ Description: "Example of a product of a recipe step (CoF Substance)"
 * ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "gerieben"
 * ingredient[=].substanceCodeableConcept.text = "rezenter Bergkäse"
 
 * ingredient[+].substanceCodeableConcept.text = "Salz"
@@ -189,13 +197,15 @@ Title: "Spinach lasagne - 3. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
 * code.text = "Product of a recipe step"
 
-* ingredient[+].quantity.numerator.value = 12
+* ingredient[+].quantity.numerator.value = 9
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "für 3 Lagen"
 * ingredient[=].substanceCodeableConcept.text = "Lasagneblätter"
 
 * ingredient[+].quantity.numerator.value = 90
 * ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "gerieben"
 * ingredient[=].substanceCodeableConcept.text = "rezenter Bergkäse"
