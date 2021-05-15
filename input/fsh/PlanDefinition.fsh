@@ -37,6 +37,11 @@ Description: "Profile of the recipe"
 * topic[season] ^short = "Season of this dish"
 * topic[season] from CoFSeason
 
+* relatedArtifact 0..1 MS
+* relatedArtifact.type MS
+* relatedArtifact.type = #documentation
+* relatedArtifact.url 1.. MS
+
 * action MS
 * action ^short = "Recipe step"
 * action.prefix 1.. MS
@@ -64,6 +69,9 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[recipeCategory][+] = CoFRecipeCategory#main-dish "Hauptspeise"
 * topic[effort][+] = CoFEffort#1 "Geht ganz schnell"
 * topic[season][+] = CoFSeason#spring "Frühling"
+
+* relatedArtifact.type = #documentation
+* relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/asparagus-tart-with-bresaola.png"
 
 * action[+].prefix = "1."
 * action[=].title = "Schritt"
@@ -94,6 +102,9 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[season][+] = CoFSeason#spring "Frühling"
 * topic[season][+] = CoFSeason#summer "Sommer"
 * topic[season][+] = CoFSeason#autumn "Herbst"
+
+* relatedArtifact.type = #documentation
+* relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/spinach-lasagne.png"
 
 * action[+].prefix = "1."
 * action[=].title = "Schritt"
