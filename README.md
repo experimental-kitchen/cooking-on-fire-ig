@@ -10,9 +10,10 @@ As there is currently no CI build and no published version for this implementati
 Below is a short description of how this can be done.
 
 
-* For the build process, Java and Jekyll is needed
-   * Install Java as described [here](https://www.java.com/en/download/help/download_options.html)
+* For the build process, different installations are needed
    * Install Jekyll as described [here](https://jekyllrb.com/) (see [Jekyll on Windows](http://jekyll-windows.juthilo.com/2-jekyll-gem/) for windows users)
+   * Install Java as described [here](https://www.java.com/en/download/help/download_options.html)
+   * Install SUSHI (and Node.js) as described [here](https://fshschool.org/docs/sushi/installation/)
 * Clone this GitHub repository to a local folder:   
   `git clone https://github.com/experimental-kitchen/cooking-on-fire-ig.git`
 * Get the latest [IG publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) from https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar. 
