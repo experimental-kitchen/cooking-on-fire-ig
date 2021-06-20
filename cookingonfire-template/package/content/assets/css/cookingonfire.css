@@ -8,7 +8,7 @@
     --navbar-bg-color: #614f36; /* Navbar container color (center) */
     --stripe-bg-color:#927c5d; /* Navbar strip color (sides) */
 
-    --footer-container-color: #614f36; /* Footer container color (center) */
+    --footer-container-bg-color: #614f36; /* Footer container color (center) */
     --footer-bg-color: #927c5d; /* Footer background color (sides) */
   
     --btn-hover-color:#dad0bb;  /* Navbar: Menu button hover color */
@@ -24,5 +24,4 @@
     --toc-box-bg-color: #fffbf3; /* TOC box background color */
     --toc-box-border: 1px solid #614f36; /* TOC box border definition */
 
-  
   }
