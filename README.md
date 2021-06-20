@@ -4,6 +4,7 @@ The 'Cooking on Fire' implementation guide (IG) describes the FHIR representatio
 
 ## Supporting information for development
 * [Mapping of the data elements](https://docs.google.com/spreadsheets/d/1cM8zTuKRDJHVVYUf_UWtyd8ImTYp2xOCVVX0WzpE_hI/edit#gid=0)
+* Sketches of the first thoughts on resource choice are in the private Goolge Drive folder [Mapping-Resources](https://drive.google.com/drive/u/0/folders/1RWtSzKmqObTTEbyIThpO323eZT0coeV0)
 
 ## Local build of the IG
 As there is currently no CI build and no published version for this implementation guide, the IG must be built locally.   
