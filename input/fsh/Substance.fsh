@@ -22,6 +22,7 @@ Instance: 40c44b70-ef56-4d06-ae59-fc2c813d866a
 InstanceOf: CoFSubstance
 Title: "Asparagus tart with bresaola - 1. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 1
@@ -41,6 +42,7 @@ Instance: 7f18f11f-f85f-4801-a012-076ac23fd449
 InstanceOf: CoFSubstance
 Title: "Asparagus tart with bresaola - 2. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 500
@@ -74,6 +76,7 @@ Instance: 1e22f1e0-e100-423b-8735-2ec0579dbfa2
 InstanceOf: CoFSubstance
 Title: "Asparagus tart with bresaola - 3. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 100
@@ -95,6 +98,7 @@ Instance: 303e7091-7bc0-4151-a0ec-8d587c9d8c63
 InstanceOf: CoFSubstance
 Title: "Spinach lasagne - 1. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 1
@@ -145,6 +149,7 @@ Instance: b028381e-de52-4b84-9979-fe4ef53cfe4c
 InstanceOf: CoFSubstance
 Title: "Spinach lasagne - 2. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 3
@@ -195,6 +200,7 @@ Instance: 1f43d6fd-93c6-44de-8e03-7a06b8f8a297
 InstanceOf: CoFSubstance
 Title: "Spinach lasagne - 3. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
+Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 9
