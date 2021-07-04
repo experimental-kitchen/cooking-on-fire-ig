@@ -1,6 +1,8 @@
 @host = http://hapi.fhir.org/baseR4
 
 
+// ============================== Recipes ============================== //
+
 ### Asparagus tart with bresaola
 PUT {{host}}/PlanDefinition/a05feeec-019a-4e29-ad2b-b7c3b3940f49 HTTP/1.1
 Content-Type: application/fhir+json
@@ -22,8 +24,6 @@ Content-Type: application/fhir+json
 < fsh-generated/resources/PlanDefinition-18fd2817-aafa-4234-9fa8-cc7e5fe7c859.json
 
 
-
-
 ### All recipes (PlanDefinition) of the "logged in" household -> for list of recipes
 GET {{host}}/PlanDefinition?publisher=Household Cook&status=active HTTP/1.1
 Content-Type: application/fhir+json
@@ -33,3 +33,42 @@ Content-Type: application/fhir+json
 GET {{host}}/PlanDefinition/a05feeec-019a-4e29-ad2b-b7c3b3940f49
 Content-Type: application/fhir+json
 
+
+// ============================== Cooks and household ============================== //
+
+### Household
+PUT {{host}}/Organization/HouseholdCook HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Organization-HouseholdCook.json
+
+
+### Cook: Milja Cook
+PUT {{host}}/Practitioner/MiljaCook HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Practitioner-MiljaCook.json
+
+### Cook: Ron Cook
+PUT {{host}}/Practitioner/RonCook HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Practitioner-RonCook.json
+
+
+### Cook in Household: Milja Cook @ Household Cook
+PUT {{host}}/PractitionerRole/MiljaCookHouseholdCook HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PractitionerRole-MiljaCookHouseholdCook.json
+
+### Cook in Household: Ron Cook @ Household Cook
+PUT {{host}}/PractitionerRole/RonCookHouseholdCook HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PractitionerRole-RonCookHouseholdCook.json
+
+
+### All cooks (Practitioner) of the "logged in" household (Organization)
+GET {{host}}/Practitioner?_has:PractitionerRole:practitioner:organization.name=Household Cook HTTP/1.1
+Content-Type: application/fhir+json

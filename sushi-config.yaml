@@ -25,7 +25,7 @@ pages:
     title: Home
   usecases.md:
     title: Use cases
-  profiles.html:
+  profiles.md:
     title: Profiles
   extensions.html:
     title: Extensions
