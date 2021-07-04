@@ -1,98 +1,75 @@
-Profile: CoFSubstance
-Parent: Substance
-Id: cof-substance
-Title: "CoF Substance"
-Description: "Profile of the product of a recipe step"
-* . ^short = "Product of a recipe step aka CoF Substance"
-* code.text 1.. MS
-* code.text ^fixedString = "Product of a recipe step"
-* ingredient MS
-* ingredient.quantity MS
-* ingredient.quantity only CoFRatio
-* ingredient.quantity.numerator MS
-* ingredient.quantity.denominator MS
-* ingredient.substanceCodeableConcept 1.. MS
-* ingredient.substanceCodeableConcept.extension contains CoFComment named comment 0..1 MS
-* ingredient.substanceCodeableConcept.text 1.. MS
-
-
-// ============================== Example Asparagus tart with bresaola ============================== //
-
-Instance: 40c44b70-ef56-4d06-ae59-fc2c813d866a
-InstanceOf: CoFSubstance
-Title: "Asparagus tart with bresaola - 1. Step - Product"
-Description: "Example of a product of a recipe step (CoF Substance)"
-Usage: #inline
-* code.text = "Product of a recipe step"
-
-* ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(ca. 25 x 48 cm)"
-* ingredient[=].substanceCodeableConcept.text = "ausgewallter Kuchenteig rechteckig"
-
-* ingredient[+].quantity.numerator.value = 150
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "griechisches Joghurt nature"
-
-
-Instance: 7f18f11f-f85f-4801-a012-076ac23fd449
-InstanceOf: CoFSubstance
-Title: "Asparagus tart with bresaola - 2. Step - Product"
-Description: "Example of a product of a recipe step (CoF Substance)"
-Usage: #inline
-* code.text = "Product of a recipe step"
-
-* ingredient[+].quantity.numerator.value = 500
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "grüne Spargeln"
-
-* ingredient[+].quantity.numerator.value = 0.5
-* ingredient[=].quantity.numerator = CoFUnits#Bund "Bund"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Basilikum"
-
-* ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.numerator = CoFUnits#EL "Esslöffel"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Olivenöl"
-
-* ingredient[+].quantity.numerator.value = 0.5
-* ingredient[=].quantity.numerator = CoFUnits#TL "Teelöffel"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Salz"
-
-* ingredient[=].substanceCodeableConcept.text = "Pfeffer"
-
-
-Instance: 1e22f1e0-e100-423b-8735-2ec0579dbfa2
-InstanceOf: CoFSubstance
-Title: "Asparagus tart with bresaola - 3. Step - Product"
-Description: "Example of a product of a recipe step (CoF Substance)"
-Usage: #inline
-* code.text = "Product of a recipe step"
-
-* ingredient[+].quantity.numerator.value = 100
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Bresaola in Tranchen"
-
-* ingredient[+].quantity.numerator.value = 0.5
-* ingredient[=].quantity.numerator = CoFUnits#Bund "Bund"
-* ingredient[=].quantity.denominator.value = 2
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Basilikum"
-
-
 // ============================== Example Spinach lasagne ============================== //
+
+// ============================== PlanDefinition ============================== //
+
+Instance: 2bd95802-2006-484f-b01d-ab86b53608bd
+InstanceOf: CoFPlanDefinition
+Title: "Spinach lasagne"
+Description: "Example of a recipe (CoF PlanDefinition)"
+* contained[+] = 1a2216a0-f85f-4090-9dc2-9dd3976dfbc0
+* contained[+] = 303e7091-7bc0-4151-a0ec-8d587c9d8c63
+* contained[+] = befca50c-edfd-41fb-a5a9-af52b86a8136
+* contained[+] = b028381e-de52-4b84-9979-fe4ef53cfe4c
+* contained[+] = 15dc8022-cf7e-49c3-ac53-c0a4349a63ae
+* contained[+] = 1f43d6fd-93c6-44de-8e03-7a06b8f8a297
+* title = "Spinatlasagne"
+* status = #active
+* date = "2021-05-14T14:00:00.000+02:00"
+* publisher = "Household Cook"
+* topic[recipeCategory][+] = CoFRecipeCategory#main-dish "Hauptspeise"
+* topic[effort][+] = CoFEffort#2 "Ein bisschen was zu machen"
+* topic[diet][+] = CoFDiet#vegetarian "vegetarisch"
+* topic[season][+] = CoFSeason#spring "Frühling"
+* topic[season][+] = CoFSeason#summer "Sommer"
+* topic[season][+] = CoFSeason#autumn "Herbst"
+
+* relatedArtifact.type = #documentation
+* relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/spinach-lasagne.png"
+
+* action[+].prefix = "1."
+* action[=].title = "Schritt"
+* action[=].definitionCanonical = "#1a2216a0-f85f-4090-9dc2-9dd3976dfbc0"
+
+* action[+].prefix = "2."
+* action[=].title = "Schritt"
+* action[=].definitionCanonical = "#befca50c-edfd-41fb-a5a9-af52b86a8136"
+
+* action[+].prefix = "3."
+* action[=].title = "Schritt"
+* action[=].definitionCanonical = "#15dc8022-cf7e-49c3-ac53-c0a4349a63ae"
+
+
+// ============================== ActivityDefinitions ============================== //
+
+Instance: 1a2216a0-f85f-4090-9dc2-9dd3976dfbc0
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 1. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+Usage: #inline
+* status = #active
+* description = "Füllung: Zwiebeln und Knoblauch andämpfen. Steinpilze mitbraten. Spinat und Rüebli kurz mitdämpfen, würzen."
+* productReference = Reference(303e7091-7bc0-4151-a0ec-8d587c9d8c63)
+
+Instance: befca50c-edfd-41fb-a5a9-af52b86a8136
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 2. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+Usage: #inline
+* status = #active
+* description = "Sauce: Alle Zutaten bis und mit Bouillon unter ständigem Rühren aufkochen. Bei kleiner Hitze 3 Minuten köcheln. Rahm und gut die Hälfte des Käses beifügen, würzen."
+* productReference = Reference(b028381e-de52-4b84-9979-fe4ef53cfe4c)
+
+Instance: 15dc8022-cf7e-49c3-ac53-c0a4349a63ae
+InstanceOf: CoFActivityDefinition
+Title: "Spinach lasagne - 3. Step"
+Description: "Example of a recipe step (CoF ActivityDefinition)"
+Usage: #inline
+* status = #active
+* description = "Lagenweise Sauce, Füllung und Lasagneblätter in die vorbereitete Form schichten, mit Sauce abschliessen, mit restlichem Käse bestreuen. In der Mitte des auf 200°C vorgeheizten Ofens 40-45 Minuten gratinieren."
+* productReference = Reference(1f43d6fd-93c6-44de-8e03-7a06b8f8a297)
+
+
+// ============================== Substances ============================== //
 
 Instance: 303e7091-7bc0-4151-a0ec-8d587c9d8c63
 InstanceOf: CoFSubstance

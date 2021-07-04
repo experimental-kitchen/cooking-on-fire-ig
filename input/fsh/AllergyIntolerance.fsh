@@ -1,3 +1,5 @@
+// ============================== Profile ============================== //
+
 Profile: CoFAllergyIntolerance
 Parent: AllergyIntolerance
 Id: cof-allergyintolerance

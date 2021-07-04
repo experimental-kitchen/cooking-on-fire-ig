@@ -1,3 +1,5 @@
+// ============================== Profile ============================== //
+
 Profile: CoFOrganization
 Parent: Organization
 Id: cof-organization
