@@ -10,7 +10,7 @@ Milja can also add a photo of this deliciously cooked starter or main course in 
 
 {% include img.html img="asparagus-tart-with-bresaola.png" caption="Fig.: Recipe photo" width="25%" %}
 
-#### REST endpoints
+**REST endpoints**
 
 Upload/update the recipe on the server:
 ```
@@ -32,7 +32,7 @@ In the [Cook household](Organization-HouseholdCook.html), [Ron Cook](Practitione
 {% include img.html img="miljacook.png" width="8%" %}
 <i>Fig.: [Milija Cook @ Household Cook](PractitionerRole-MiljaCookHouseholdCook.html)</i>
 
-#### REST endpoints
+**REST endpoints**
 
 Query all cooks who are members of the Cook household:
 ```
@@ -43,18 +43,15 @@ GET [base]/Practitioner?_has:PractitionerRole:practitioner:organization.name=Hou
 ### Plan menu for eaters, keeping their preferences in mind
 
 #### Plan for eaters in this household
-Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own [household], in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the [Cook household](Organization-HouseholdCook.html), are entered by default in the menu plan. If they do not participate in a meal, they can be removed.
+Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own household, in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the [Cook household](Organization-HouseholdCook.html), are entered by default in the menu plan. If they do not participate in a meal, they can be removed.   
+With Ron, meal planning is never difficult, because he [likes everything](AllergyIntolerance-NoKnownAllergyDislikeRon.html). Milja, on the other hand, is a bit pickier. She doesn't like [seafood](AllergyIntolerance-PineappleAllergyMilja.html) and [pineapple](AllergyIntolerance-PineappleAllergyMilja.html).
 
-
+#### Plan for guests
+When Ron and Milja invite their friends to a meal, they can be added to the menu plan. To do this, the friends are entered as guests in the 'Cooking on Fire' app and their preferences are also entered.   
+Ron and Milja are happy that Tobias and Lynn will soon be coming for dinner. [Tobias] is lactose intolerant and [Lynn] is a vegetarian. Thanks to the app and its filter function for recipes, planning is no longer difficult.
 
 TBD:
 * Ron und Milja gehören zum Haushalt -> Attribut für in-/out-house?
-* Gäste extern: können beim Menuplan hinzugefügt werden
-* Allergien
 * Likes?
 
-* **Guest** (person who simply enjoys the cooked menu) with and without allergies/dislikes
-   * [Ron Cook](Patient-Ron.html)
-      * Ron [likes everything](AllergyIntolerance-NoKnownAllergyDislikeRon.html)
-   * [Milja Cook](Patient-Milja.html)
-      * Milja does not like [seafood](AllergyIntolerance-PineappleAllergyMilja.html) and [pineapple](AllergyIntolerance-PineappleAllergyMilja.html)
+
