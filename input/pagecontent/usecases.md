@@ -40,11 +40,15 @@ GET [base]/Practitioner?_has:PractitionerRole:practitioner:organization.name=Hou
 ```
 
 
-### Plan menu for eaters with their preferences
+### Plan menu for eaters, keeping their preferences in mind
+
+#### Plan for eaters in this household
+Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own [household], in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the [Cook household](Organization-HouseholdCook.html), are entered by default in the menu plan. If they do not participate in a meal, they can be removed.
+
+
 
 TBD:
 * Ron und Milja gehören zum Haushalt -> Attribut für in-/out-house?
-   * Standard für Menuplan
 * Gäste extern: können beim Menuplan hinzugefügt werden
 * Allergien
 * Likes?
