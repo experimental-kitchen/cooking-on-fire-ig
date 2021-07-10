@@ -13,10 +13,10 @@
 {% include img.html img="practitionerrole.png" caption="Fig.: Cook in a household with its references" width="53%" %}
 
 ### Eaters with their preferences
-* [CoF Patient](StructureDefinition-cof-patient.html): Profile of the guest
+* [CoF Patient](StructureDefinition-cof-patient.html): Profile of the eater
 * [CoF AllergyIntolerance](StructureDefinition-cof-allergyintolerance.html): Profile of the allergy/dislike
 
-{% include img.html img="patient.png" caption="Fig.: Guest with its references" width="25%" %}
+{% include img.html img="patient.png" caption="Fig.: Eater with its references" width="25%" %}
 
 
 

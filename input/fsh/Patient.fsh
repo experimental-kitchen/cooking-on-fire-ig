@@ -4,8 +4,8 @@ Profile: CoFPatient
 Parent: Patient
 Id: cof-patient
 Title: "CoF Patient"
-Description: "Profile of the guest"
-* . ^short = "Guest aka CoF Patient"
+Description: "Profile of the eater"
+* . ^short = "Eater aka CoF Patient"
 * name and name.family and name.given MS
 
 // ============================== Examples ============================== //
@@ -13,7 +13,7 @@ Description: "Profile of the guest"
 Instance: Milja
 InstanceOf: CoFPatient
 Title: "Milja"
-Description: "Example of a guest (CoF Patient)"
+Description: "Example of a eater (CoF Patient)"
 * name.family = "Cook"
 * name.given = "Milja"
 
@@ -21,6 +21,22 @@ Description: "Example of a guest (CoF Patient)"
 Instance: Ron
 InstanceOf: CoFPatient
 Title: "Ron"
-Description: "Example of a guest (CoF Patient)"
+Description: "Example of a eater (CoF Patient)"
 * name.family = "Cook"
 * name.given = "Ron"
+
+
+Instance: Tobias
+InstanceOf: CoFPatient
+Title: "Tobias"
+Description: "Example of a eater (CoF Patient)"
+* name.family = "Guest"
+* name.given = "Tobias"
+
+
+Instance: Livia
+InstanceOf: CoFPatient
+Title: "Livia"
+Description: "Example of a eater (CoF Patient)"
+* name.family = "Guest"
+* name.given = "Livia"

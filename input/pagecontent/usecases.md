@@ -43,15 +43,16 @@ GET [base]/Practitioner?_has:PractitionerRole:practitioner:organization.name=Hou
 ### Plan menu for eaters, keeping their preferences in mind
 
 #### Plan for eaters in this household
-Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own household, in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the [Cook household](Organization-HouseholdCook.html), are entered by default in the menu plan. If they do not participate in a meal, they can be removed.   
-With Ron, meal planning is never difficult, because he [likes everything](AllergyIntolerance-NoKnownAllergyDislikeRon.html). Milja, on the other hand, is a bit pickier. She doesn't like [seafood](AllergyIntolerance-PineappleAllergyMilja.html) and [pineapple](AllergyIntolerance-PineappleAllergyMilja.html).
+Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own household, in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the Cook household, are entered by default in the menu plan. If they do not participate in a meal, they can be removed.   
+With Ron, meal planning is never difficult, because he [likes everything](AllergyIntolerance-NoKnownAllergyDislikeRon.html). Milja, on the other hand, is a bit pickier. She is [allergic to seafood](AllergyIntolerance-SeafoodAllergyMilja.html) and [doesn't like pineapple](AllergyIntolerance-PineappleDislikeMilja.html).
 
 #### Plan for guests
 When Ron and Milja invite their friends to a meal, they can be added to the menu plan. To do this, the friends are entered as guests in the 'Cooking on Fire' app and their preferences are also entered.   
-Ron and Milja are happy that Tobias and Lynn will soon be coming for dinner. [Tobias] is lactose intolerant and [Lynn] is a vegetarian. Thanks to the app and its filter function for recipes, planning is no longer difficult.
+Ron and Milja are happy that [Tobias](Patient-Tobias.html) and [Livia](Patient-Livia.html) will soon be coming for dinner. Tobias is [lactose intolerant](AllergyIntolerance-LactoseIntoleranceTobias.html) and Livia is a [vegetarian](AllergyIntolerance-VegetarianLivia.html). Thanks to the app and its filter function for recipes, planning is no longer difficult.
 
 TBD:
 * Ron und Milja gehören zum Haushalt -> Attribut für in-/out-house?
 * Likes?
+* CS/VS für laktose, vegi etc. - rest freetext
 
 

@@ -37,11 +37,31 @@ Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 * patient = Reference(Milja)
 
 
-Instance: PineappleAllergyMilja
+Instance: PineappleDislikeMilja
 InstanceOf: CoFAllergyIntolerance
-Title: "Pineapple allergy (Milja)"
+Title: "Pineapple dislike (Milja)"
 Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
-* code.text = "Ananas" // TBD CS/VS
+* code.text = "Ananas"
 * patient = Reference(Milja)
+
+
+Instance: VegetarianLivia
+InstanceOf: CoFAllergyIntolerance
+Title: "Vegetarian (Livia)"
+Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+* clinicalStatus = AIClinical#active
+* category = #food
+* code.text = "Vegetarierin"
+* patient = Reference(Livia)
+
+
+Instance: LactoseIntoleranceTobias
+InstanceOf: CoFAllergyIntolerance
+Title: "Lactose intolerance (Tobias)"
+Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+* clinicalStatus = AIClinical#active
+* category = #food
+* code.text = "Lactose intolerance"
+* patient = Reference(Tobias)
