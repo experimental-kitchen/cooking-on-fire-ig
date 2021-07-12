@@ -7,6 +7,9 @@ Title: "CoF Patient"
 Description: "Profile of the eater"
 * . ^short = "Eater aka CoF Patient"
 * name and name.family and name.given MS
+* generalPractitioner ..1 MS
+* generalPractitioner ^short = "Household in which the eater lives (not to use for eaters which are guests)"
+* generalPractitioner only Reference(CoFOrganization)
 
 // ============================== Examples ============================== //
 
@@ -16,6 +19,7 @@ Title: "Milja"
 Description: "Example of a eater (CoF Patient)"
 * name.family = "Cook"
 * name.given = "Milja"
+* generalPractitioner = Reference(HouseholdCook)
 
 
 Instance: Ron
@@ -24,6 +28,7 @@ Title: "Ron"
 Description: "Example of a eater (CoF Patient)"
 * name.family = "Cook"
 * name.given = "Ron"
+* generalPractitioner = Reference(HouseholdCook)
 
 
 Instance: Tobias

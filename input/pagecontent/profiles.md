@@ -3,20 +3,23 @@
 * [CoF ActivityDefinition](StructureDefinition-cof-activitydefinition.html): Profile of the recipe step
 * [CoF Substance](StructureDefinition-cof-substance.html): Profile of the product of a recipe step
 
-{% include img.html img="plandefinition.png" caption="Fig.: Recipe with its references" width="25%" %}
-
 ### Cooks in a household
 * [CoF PractitionerRole](StructureDefinition-cof-practitionerrole.html): Profile of the cook in a household 
 * [CoF Organization](StructureDefinition-cof-organization.html): Profile of the household (for shared recipes, menu plan, shopping list and list of friends)
 * [CoF Practitioner](StructureDefinition-cof-practitioner.html): Profile of the cook (authenticated app user)
 
-{% include img.html img="practitionerrole.png" caption="Fig.: Cook in a household with its references" width="53%" %}
 
-### Eaters with their preferences
+### Cooking, meals and eaters with their preferences
+* [CoF Encounter](StructureDefinition-cof-encounter.html): Profile of the meal 
+* [CoF Procedure](StructureDefinition-cof-procedure.html): Profile of the cooking 
+* [CoF Group](StructureDefinition-cof-group.html): Profile of the group of eaters
 * [CoF Patient](StructureDefinition-cof-patient.html): Profile of the eater
-* [CoF AllergyIntolerance](StructureDefinition-cof-allergyintolerance.html): Profile of the allergy/dislike
+* [CoF AllergyIntolerance](StructureDefinition-cof-allergyintolerance.html): Profile of the allergy/dislike of a eater
 
-{% include img.html img="patient.png" caption="Fig.: Eater with its references" width="25%" %}
+
+### Overview of the profiles and references
+
+{% include img.html img="profiles.png" caption="Fig.: CoF profiles and their references" width="100%" %}
 
 
 

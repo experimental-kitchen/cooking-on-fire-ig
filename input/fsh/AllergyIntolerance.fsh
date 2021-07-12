@@ -4,8 +4,8 @@ Profile: CoFAllergyIntolerance
 Parent: AllergyIntolerance
 Id: cof-allergyintolerance
 Title: "CoF AllergyIntolerance"
-Description: "Profile of the allergy/dislike"
-* . ^short = "Allergy/dislike aka CoF AllergyIntolerance"
+Description: "Profile of the allergy/dislike of a eater"
+* . ^short = "Allergy/dislike of a eater aka CoF AllergyIntolerance"
 * clinicalStatus 1.. MS
 * clinicalStatus = AIClinical#active
 * category 1.. MS
@@ -20,7 +20,7 @@ Description: "Profile of the allergy/dislike"
 Instance: NoKnownAllergyDislikeRon
 InstanceOf: CoFAllergyIntolerance
 Title: "No known allergy/dislike (Ron)"
-Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
 * code.text = "keine Allergien oder Abneigungen bekannt"
@@ -30,7 +30,7 @@ Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 Instance: SeafoodAllergyMilja
 InstanceOf: CoFAllergyIntolerance
 Title: "Seafood allergy (Milja)"
-Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
 * code.text = "Meeresfrüchte"
@@ -40,7 +40,7 @@ Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 Instance: PineappleDislikeMilja
 InstanceOf: CoFAllergyIntolerance
 Title: "Pineapple dislike (Milja)"
-Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
 * code.text = "Ananas"
@@ -50,7 +50,7 @@ Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 Instance: VegetarianLivia
 InstanceOf: CoFAllergyIntolerance
 Title: "Vegetarian (Livia)"
-Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
 * code.text = "Vegetarierin"
@@ -60,7 +60,7 @@ Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
 Instance: LactoseIntoleranceTobias
 InstanceOf: CoFAllergyIntolerance
 Title: "Lactose intolerance (Tobias)"
-Description: "Example of allergies/dislike (CoF AllergyIntolerance)"
+Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
 * clinicalStatus = AIClinical#active
 * category = #food
 * code.text = "Lactose intolerance"
