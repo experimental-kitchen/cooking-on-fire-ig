@@ -25,3 +25,16 @@ Description: "Example of a group of eaters (CoF Group)"
 * quantity = 2
 * member[+].entity = Reference(Milja)
 * member[+].entity = Reference(Ron)
+
+
+Instance: GroupDinner20210227
+InstanceOf: CoFGroup
+Title: "Eaters @ Dinner 2021-02-27"
+Description: "Example of a group of eaters (CoF Group)"
+* type = #person
+* actual = true
+* quantity = 4
+* member[+].entity = Reference(Milja)
+* member[+].entity = Reference(Ron)
+* member[+].entity = Reference(Livia)
+* member[+].entity = Reference(Tobias)

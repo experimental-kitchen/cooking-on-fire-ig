@@ -1,10 +1,10 @@
-// ============================== Example Goulash Soup ============================== //
+// ============================== Example Goulash soup ============================== //
 
 // ============================== PlanDefinition ============================== //
 
 Instance: 18fd2817-aafa-4234-9fa8-cc7e5fe7c859
 InstanceOf: CoFPlanDefinition
-Title: "Goulash Soup"
+Title: "Goulash soup"
 Description: "Example of a recipe (CoF PlanDefinition)"
 * contained[+] = dd4268d7-be64-433f-b79f-5c08c6ee0f3f
 * contained[+] = 19721944-db62-45d7-a6ec-092faa09d7d6
@@ -44,7 +44,7 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 
 Instance: dd4268d7-be64-433f-b79f-5c08c6ee0f3f
 InstanceOf: CoFActivityDefinition
-Title: "Goulash Soup - 1. Step"
+Title: "Goulash soup - 1. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
 Usage: #inline
 * status = #active
@@ -53,7 +53,7 @@ Usage: #inline
 
 Instance: 4b7984ff-d716-48f3-b900-3fd6625b8a13
 InstanceOf: CoFActivityDefinition
-Title: "Goulash Soup - 2. Step"
+Title: "Goulash soup - 2. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
 Usage: #inline
 * status = #active
@@ -62,7 +62,7 @@ Usage: #inline
 
 Instance: 15a75caf-0ad8-4259-8c72-bac0f8f8d76b
 InstanceOf: CoFActivityDefinition
-Title: "Goulash Soup - 3. Step"
+Title: "Goulash soup - 3. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
 Usage: #inline
 * status = #active
@@ -71,7 +71,7 @@ Usage: #inline
 
 Instance: 6bbed2d6-3f60-4ff1-b9a0-fc31f6608f66
 InstanceOf: CoFActivityDefinition
-Title: "Goulash Soup - 4. Step"
+Title: "Goulash soup - 4. Step"
 Description: "Example of a recipe step (CoF ActivityDefinition)"
 Usage: #inline
 * status = #active
@@ -83,7 +83,7 @@ Usage: #inline
 
 Instance: 19721944-db62-45d7-a6ec-092faa09d7d6
 InstanceOf: CoFSubstance
-Title: "Goulash Soup - 1. Step - Product"
+Title: "Goulash soup - 1. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
 Usage: #inline
 * code.text = "Product of a recipe step"
@@ -127,7 +127,7 @@ Usage: #inline
 
 Instance: 8d40a6e1-0e0d-4b93-8c28-30441089bd3f
 InstanceOf: CoFSubstance
-Title: "Goulash Soup - 2. Step - Product"
+Title: "Goulash soup - 2. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
 Usage: #inline
 * code.text = "Product of a recipe step"
@@ -155,7 +155,7 @@ Usage: #inline
 
 Instance: 387b02e0-6f17-4182-830b-16343ae41cd9
 InstanceOf: CoFSubstance
-Title: "Goulash Soup - 3. Step - Product"
+Title: "Goulash soup - 3. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
 Usage: #inline
 * code.text = "Product of a recipe step"
@@ -175,7 +175,7 @@ Usage: #inline
 
 Instance: b1e24c12-f7ba-4886-bbf7-8e1f201a5f99
 InstanceOf: CoFSubstance
-Title: "Goulash Soup - 4. Step - Product"
+Title: "Goulash soup - 4. Step - Product"
 Description: "Example of a product of a recipe step (CoF Substance)"
 Usage: #inline
 * code.text = "Product of a recipe step"

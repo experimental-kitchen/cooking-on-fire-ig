@@ -24,6 +24,13 @@ Content-Type: application/fhir+json
 < fsh-generated/resources/PlanDefinition-18fd2817-aafa-4234-9fa8-cc7e5fe7c859.json
 
 
+### Pear tart with hazelnuts
+PUT {{host}}/PlanDefinition/e46400ab-889f-45ca-93ef-f7a34cafb984 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.json
+
+
 ### All recipes (PlanDefinition) of the "logged in" household -> for list of recipes
 GET {{host}}/PlanDefinition?publisher=Household Cook&status=active HTTP/1.1
 Content-Type: application/fhir+json

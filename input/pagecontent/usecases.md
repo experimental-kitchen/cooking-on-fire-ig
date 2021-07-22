@@ -31,7 +31,7 @@ In the [Cook household](Organization-HouseholdCook.html), [Ron Cook](Practitione
 <i>Fig.: [Ron Cook @ Household Cook](PractitionerRole-RonCookHouseholdCook.html)</i>
 
 {% include img.html img="miljacook.png" width="8%" %}
-<i>Fig.: [Milija Cook @ Household Cook](PractitionerRole-MiljaCookHouseholdCook.html)</i>
+<i>Fig.: [Milja Cook @ Household Cook](PractitionerRole-MiljaCookHouseholdCook.html)</i>
 
 **REST endpoints**
 
@@ -43,23 +43,26 @@ GET [base]/Practitioner?_has:PractitionerRole:practitioner:organization.name=Hou
 
 ### Plan meals for eaters, keeping their preferences in mind
 
+{% include img.html img="diet.png" width="50%" %}
+<i>Fig.: App icons for [CoF Diets](ValueSet-cof-diet.html)</i>
+
 #### Plan for eaters in this household
 Milja and Ron may be passionate about cooking, but they love eating just as much. In the app 'Cooking on Fire', the eaters in one's own household, in this case [Milja](Patient-Milja.html) and [Ron](Patient-Ron.html) in the Cook household, are entered by default in the menu plan. If they do not participate in a meal, they can be removed.   
 With Ron, meal planning is never difficult, because he [likes everything](AllergyIntolerance-NoKnownAllergyDislikeRon.html). Milja, on the other hand, is a bit pickier. She is [allergic to seafood](AllergyIntolerance-SeafoodAllergyMilja.html) and [doesn't like pineapple](AllergyIntolerance-PineappleDislikeMilja.html).
 
-Ron and Milja are doing the menu plan for next week. They have already planned a ski tour for next Sunday. Since soup is just the thing after a day in the snow, Ron has suggested that he will [cook](Procedure-CookingDinner20210214.html) their favourite goulash soup for [them](Group-GroupDinner20210214.html) for [dinner on Sunday 2021-02-14](Encounter-Dinner20210214.html).
+Ron and Milja are doing the menu plan for next week. They have already planned a ski tour for next Sunday. Since soup is just the thing after a day in the snow, Ron has suggested that he will [cook](Procedure-CookingDinner20210214.html) their favourite [goulash soup](PlanDefinition-18fd2817-aafa-4234-9fa8-cc7e5fe7c859.html) for [them](Group-GroupDinner20210214.html) for [dinner on Sunday 2021-02-14](Encounter-Dinner20210214.html).
 
 #### Plan for guests
 When Ron and Milja invite their friends to a meal, they can be added to the menu plan. To do this, the friends are entered as guests in the 'Cooking on Fire' app and their preferences are also entered.  
 
 Ron and Milja are happy that [Tobias](Patient-Tobias.html) and [Livia](Patient-Livia.html) will soon be coming for dinner. Tobias is [lactose intolerant](AllergyIntolerance-LactoseIntoleranceTobias.html) and Livia is a [vegetarian](AllergyIntolerance-VegetarianLivia.html). Thanks to the app and its filter function for recipes, planning is no longer difficult.   
-Milja wants to [cook](Procedure) a delicious dinner for [them all](Group) on [2021-02-27](Encounter) and is planning [recipe 1](PlanDefinition) for starters, [recipe 2](PlanDefinition) for the main dish and [recipe 3](PlanDefinition) for dessert.
+Milja wants to [cook](Procedure-CookingDinner20210227.html) a delicious dinner for [them all](Group-GroupDinner20210227.html) on [2021-02-27](Encounter-Dinner20210227.html) and is planning [recipe 1](PlanDefinition) for starters, [recipe 2](PlanDefinition) for the main dish and [pear tart with hazelnuts](PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.html) for dessert.
 
 ****************************************
 https://github.com/experimental-kitchen/cooking-on-fire-ig/issues/9#issuecomment-878413481
 
 TBD 1:   
-Add examples for the last use case (Group, Encounter, Procedure, 3 Recipes).
+Add examples for the last use case (Procedure, 2 Recipes).
 
 TBD 2:   
 Maybe add a "CoF Diet"-attribute to the AllergyIntolerance resource, for filtering the recipes afterwards in the app (to think about how it may will work). Until now its just freetext.
