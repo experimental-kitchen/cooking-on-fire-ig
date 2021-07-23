@@ -56,7 +56,7 @@ Ron and Milja are doing the menu plan for next week. They have already planned a
 When Ron and Milja invite their friends to a meal, they can be added to the menu plan. To do this, the friends are entered as guests in the 'Cooking on Fire' app and their preferences are also entered.  
 
 Ron and Milja are happy that [Tobias](Patient-Tobias.html) and [Livia](Patient-Livia.html) will soon be coming for dinner. Tobias is [lactose intolerant](AllergyIntolerance-LactoseIntoleranceTobias.html) and Livia is a [vegetarian](AllergyIntolerance-VegetarianLivia.html). Thanks to the app and its filter function for recipes, planning is no longer difficult.   
-Milja wants to [cook](Procedure-CookingDinner20210227.html) a delicious dinner for [them all](Group-GroupDinner20210227.html) on [2021-02-27](Encounter-Dinner20210227.html) and is planning [recipe 1](PlanDefinition) for starters, [recipe 2](PlanDefinition) for the main dish and [pear tart with hazelnuts](PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.html) for dessert.
+Milja wants to [cook](Procedure-CookingDinner20210227.html) a delicious dinner for [them all](Group-GroupDinner20210227.html) on [2021-02-27](Encounter-Dinner20210227.html) and is planning [recipe 1](PlanDefinition) for starters, [lemon-pumpkin fish stew](PlanDefinition-65257078-33e4-48b2-90ce-7f8a086f49b9.html) for the main dish and [pear tart with hazelnuts](PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.html) for dessert.
 
 ****************************************
 https://github.com/experimental-kitchen/cooking-on-fire-ig/issues/9#issuecomment-878413481
