@@ -56,7 +56,7 @@ Description: "Profile of the recipe"
 * action.title ^fixedString = "Schritt"
 * action.definitionCanonical 1.. MS
 * action.definitionCanonical ^short = "Recipe step itself (ActivityDefinition)"
-* action.definitionCanonical ^type.targetProfile = CoFActivityDefinition
+* action.definitionCanonical only Canonical(CoFActivityDefinition)
 
 
 // ============================== Profile ActivityDefinition ============================== //

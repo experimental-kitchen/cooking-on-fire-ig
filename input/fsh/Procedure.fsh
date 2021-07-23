@@ -7,8 +7,7 @@ Title: "CoF Procedure"
 Description: "Profile of the cooking"
 * . ^short = "Cooking aka CoF Procedure"
 * instantiatesCanonical MS
-// TBD: https://chat.fhir.org/#narrow/stream/179166-implementers/topic/specify.20only.20one.20targetProfile.20of.20type.20canonical
-* instantiatesCanonical ^type.targetProfile = "http://cooking-on-fire.ch/fhir/StructureDefinition/cof-plandefinition"
+* instantiatesCanonical only Canonical(CoFPlanDefinition)
 * status MS
 * status = #preparation
 * subject MS
