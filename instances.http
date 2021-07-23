@@ -52,6 +52,13 @@ Content-Type: application/fhir+json
 < fsh-generated/resources/PlanDefinition-040537d6-0fbf-4db9-ac4f-14b874b650f6.json
 
 
+### 8. Strawberry bowle
+PUT {{host}}/PlanDefinition/9a8a285c-f79d-4d52-8d3d-01fe7b53e8d3 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-9a8a285c-f79d-4d52-8d3d-01fe7b53e8d3.json
+
+
 ### All recipes (PlanDefinition) of the "logged in" household -> for list of recipes
 GET {{host}}/PlanDefinition?publisher=Household Cook&status=active HTTP/1.1
 Content-Type: application/fhir+json
