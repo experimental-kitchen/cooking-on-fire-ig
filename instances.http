@@ -3,46 +3,53 @@
 
 // ============================== Recipes ============================== //
 
-### Asparagus tart with bresaola
+### 1. Asparagus tart with bresaola
 PUT {{host}}/PlanDefinition/a05feeec-019a-4e29-ad2b-b7c3b3940f49 HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-a05feeec-019a-4e29-ad2b-b7c3b3940f49.json
 
 
-### Spinach lasagne
+### 2. Spinach lasagne
 PUT {{host}}/PlanDefinition/2bd95802-2006-484f-b01d-ab86b53608bd HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-2bd95802-2006-484f-b01d-ab86b53608bd.json
 
 
-### Goulash soup
+### 3. Goulash soup
 PUT {{host}}/PlanDefinition/18fd2817-aafa-4234-9fa8-cc7e5fe7c859 HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-18fd2817-aafa-4234-9fa8-cc7e5fe7c859.json
 
 
-### Pear tart with hazelnuts
+### 4. Pear tart with hazelnuts
 PUT {{host}}/PlanDefinition/e46400ab-889f-45ca-93ef-f7a34cafb984 HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.json
 
 
-### Lemon-pumpkin fish stew
+### 5. Lemon-pumpkin fish stew
 PUT {{host}}/PlanDefinition/65257078-33e4-48b2-90ce-7f8a086f49b9 HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-65257078-33e4-48b2-90ce-7f8a086f49b9.json
 
 
-### Beetroot pralines with macadamia
+### 6. Beetroot pralines with macadamia
 PUT {{host}}/PlanDefinition/56d58ce7-dfb2-4d3c-adbf-b85d69368815 HTTP/1.1
 Content-Type: application/fhir+json
 
 < fsh-generated/resources/PlanDefinition-56d58ce7-dfb2-4d3c-adbf-b85d69368815.json
+
+
+### 7. Tomato sugo
+PUT {{host}}/PlanDefinition/040537d6-0fbf-4db9-ac4f-14b874b650f6 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-040537d6-0fbf-4db9-ac4f-14b874b650f6.json
 
 
 ### All recipes (PlanDefinition) of the "logged in" household -> for list of recipes
