@@ -38,6 +38,13 @@ Content-Type: application/fhir+json
 < fsh-generated/resources/PlanDefinition-65257078-33e4-48b2-90ce-7f8a086f49b9.json
 
 
+### Beetroot pralines with macadamia
+PUT {{host}}/PlanDefinition/56d58ce7-dfb2-4d3c-adbf-b85d69368815 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/PlanDefinition-56d58ce7-dfb2-4d3c-adbf-b85d69368815.json
+
+
 ### All recipes (PlanDefinition) of the "logged in" household -> for list of recipes
 GET {{host}}/PlanDefinition?publisher=Household Cook&status=active HTTP/1.1
 Content-Type: application/fhir+json
