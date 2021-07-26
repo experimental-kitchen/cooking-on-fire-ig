@@ -19,12 +19,18 @@ Description: "ValueSet of the diet"
 * include codes from system CoFDiet
 
 
+ValueSet: CoFAllergyIntoleranceSubstance
+Id: cof-allergyintolerancesubstance
+Title: "CoF Allergy/Intolerance substance"
+Description: "ValueSet of the allergy/intolerance substances"
+* include codes from system CoFAllergyIntoleranceSubstance
+
+
 ValueSet: CoFSeason
 Id: cof-season
 Title: "CoF Season"
 Description: "ValueSet of the season"
 * include codes from system CoFSeason
-
 
 
 ValueSet: CoFUnits

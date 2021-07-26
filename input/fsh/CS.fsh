@@ -31,6 +31,18 @@ Description: "CodeSystem of the diet"
 * #pesce "pesce"
 
 
+CodeSystem: CoFAllergyIntoleranceSubstance
+Id: cof-allergyintolerancesubstance
+Title: "CoF Allergy/Intolerance substance"
+Description: "CodeSystem of the allergy/intolerance substances"
+* #meat-products "Fleisch & Fleischprodukte"
+* #animal-products "Tierische Produkte"
+* #lactose "Laktose"
+* #gluten "Gluten"
+* #pesce "Fisch & Fischprodukte"
+* #no-known "Keine Allergien/Intoleranzen oder Abneigungen bekannt"
+
+
 CodeSystem: CoFSeason
 Id: cof-season
 Title: "CoF Season"
