@@ -24,11 +24,11 @@ CodeSystem: CoFDiet
 Id: cof-diet
 Title: "CoF Diet"
 Description: "CodeSystem of the diet"
-* #vegetarian "vegetarisch"
-* #vegan "vegan"
-* #lactose-free "laktosefrei"
-* #gluten-free "glutenfrei"
-* #pesce "pesce"
+* #vegetarian "Vegetarisch"
+* #vegan "Vegan"
+* #lactose-free "Laktosefrei"
+* #gluten-free "Glutenfrei"
+* #pesce "Pesce"
 
 
 CodeSystem: CoFAllergyIntoleranceSubstance
@@ -51,7 +51,7 @@ Description: "CodeSystem of the season"
 * #summer "Sommer"
 * #autumn "Herbst"
 * #winter "Winter"
-* #all-season "ganzjährig"
+* #all-season "Ganzjährig"
 
 
 CodeSystem: CoFUnit
