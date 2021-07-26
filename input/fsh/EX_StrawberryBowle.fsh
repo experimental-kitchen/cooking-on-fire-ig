@@ -21,7 +21,7 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[diet][+] = CoFDiet#gluten-free "Glutenfrei"
 * topic[diet][+] = CoFDiet#vegan "Vegan"
 * topic[effort][+] = CoFEffort#2 "Ein bisschen was zu machen"
-* topic[season][+] = CoFSeason#summer "Sommer"
+* topic[season][+] = CoFSeason#summer "Sommer (01.06. bis 31.08.)"
 
 * action[+].prefix = "1."
 * action[=].title = "Schritt"

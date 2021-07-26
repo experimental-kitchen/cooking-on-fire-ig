@@ -19,9 +19,9 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[recipeCategory][+] = CoFRecipeCategory#main-dish "Hauptspeise"
 * topic[effort][+] = CoFEffort#2 "Ein bisschen was zu machen"
 * topic[diet][+] = CoFDiet#vegetarian "Vegetarisch"
-* topic[season][+] = CoFSeason#spring "Frühling"
-* topic[season][+] = CoFSeason#summer "Sommer"
-* topic[season][+] = CoFSeason#autumn "Herbst"
+* topic[season][+] = CoFSeason#spring "Frühling (01.03. bis 31.05.)"
+* topic[season][+] = CoFSeason#summer "Sommer (01.06. bis 31.08.)"
+* topic[season][+] = CoFSeason#autumn "Herbst (01.09. bis 30.11.)"
 
 * relatedArtifact.type = #documentation
 * relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/spinach-lasagne.png"

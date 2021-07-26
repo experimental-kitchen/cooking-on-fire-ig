@@ -25,8 +25,8 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[diet][+] = CoFDiet#vegan "Vegan"
 * topic[diet][+] = CoFDiet#lactose-free "Laktosefrei"
 * topic[effort][+] = CoFEffort#2 "Ein bisschen was zu machen"
-* topic[season][+] = CoFSeason#autumn "Herbst"
-* topic[season][+] = CoFSeason#winter "Winter"
+* topic[season][+] = CoFSeason#autumn "Herbst (01.09. bis 30.11.)"
+* topic[season][+] = CoFSeason#winter "Winter (01.12. bis 28.02.)"
 
 * relatedArtifact.type = #documentation
 * relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/pear-tart-with-hazelnuts.png"

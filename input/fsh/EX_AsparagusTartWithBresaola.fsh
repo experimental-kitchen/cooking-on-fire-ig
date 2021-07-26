@@ -21,7 +21,7 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[recipeCategory][+] = CoFRecipeCategory#starter "Vorspeise"
 * topic[recipeCategory][+] = CoFRecipeCategory#main-dish "Hauptspeise"
 * topic[effort][+] = CoFEffort#1 "Geht ganz schnell"
-* topic[season][+] = CoFSeason#spring "Frühling"
+* topic[season][+] = CoFSeason#spring "Frühling (01.03. bis 31.05.)"
 
 * relatedArtifact.type = #documentation
 * relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/asparagus-tart-with-bresaola.png"

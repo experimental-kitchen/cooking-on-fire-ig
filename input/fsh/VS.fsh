@@ -33,6 +33,13 @@ Description: "ValueSet of the season"
 * include codes from system CoFSeason
 
 
+ValueSet: CoFHalfMonth
+Id: cof-halfmonth
+Title: "CoF Half month"
+Description: "ValueSet of the half month"
+* include codes from system CoFHalfMonth
+
+
 ValueSet: CoFUnit
 Id: cof-unit
 Title: "CoF Unit"

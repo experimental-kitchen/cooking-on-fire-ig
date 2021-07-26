@@ -7,6 +7,7 @@ WARNING: StructureDefinition.where(url = 'http://cooking-on-fire.ch/fhir/Structu
 # No support of the element name (computer friendly)
 adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 
 # Examples integrated in PlanDefinition (contained resources)
 The Implementation Guide contains no examples for this profile

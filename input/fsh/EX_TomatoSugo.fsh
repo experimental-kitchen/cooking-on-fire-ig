@@ -21,7 +21,7 @@ Description: "Example of a recipe (CoF PlanDefinition)"
 * topic[diet][+] = CoFDiet#gluten-free "Glutenfrei"
 * topic[diet][+] = CoFDiet#vegan "Vegan"
 * topic[effort][+] = CoFEffort#3 "Gut Ding will Weile haben"
-* topic[season][+] = CoFSeason#summer "Sommer"
+* topic[season][+] = CoFSeason#summer "Sommer (01.06. bis 31.08.)"
 
 * relatedArtifact.type = #documentation
 * relatedArtifact.url = "https://raw.githubusercontent.com/experimental-kitchen/cooking-on-fire-ig/main/input/images/tomato-sugo.png"
