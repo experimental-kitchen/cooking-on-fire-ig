@@ -64,35 +64,35 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 7
-* ingredient[=].quantity.numerator = CoFUnits#dl "Deziliter"
+* ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfel"
 * ingredient[=].substanceCodeableConcept.text = "Weisswein"
 
 * ingredient[+].quantity.numerator.value = 500
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Scheiben"
 * ingredient[=].substanceCodeableConcept.text = "Erdbeeren"
 
 * ingredient[+].quantity.numerator.value = 250
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Himbeeren"
 
 * ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.numerator = CoFUnits#dl "Deziliter"
+* ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Rhabarbersirup"
 
 * ingredient[+].quantity.numerator.value = 0.5
-* ingredient[=].quantity.numerator = CoFUnits#Bund "Bund"
+* ingredient[=].quantity.numerator = CoFUnit#Bund "Bund"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Pfefferminze"
 
 
@@ -104,8 +104,8 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 7
-* ingredient[=].quantity.numerator = CoFUnits#dl "Deziliter"
+* ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 6
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Schaumwein"
 

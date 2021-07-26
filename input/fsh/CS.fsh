@@ -54,10 +54,10 @@ Description: "CodeSystem of the season"
 * #all-season "ganzjährig"
 
 
-CodeSystem: CoFUnits
-Id: cof-units
-Title: "CoF Units"
-Description: "CodeSystem of the units"
+CodeSystem: CoFUnit
+Id: cof-unit
+Title: "CoF Unit"
+Description: "CodeSystem of the unit"
 * #l "Liter"
 * #dl "Deziliter"
 * #cl "Centiliter"

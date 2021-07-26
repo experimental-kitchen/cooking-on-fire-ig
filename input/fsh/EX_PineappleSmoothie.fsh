@@ -51,26 +51,26 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 3
-* ingredient[=].quantity.numerator = CoFUnits#dl "Deziliter"
+* ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Kokoswasser"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "geschält, Strunk entfernt, in Stücken"
 * ingredient[=].substanceCodeableConcept.text = "Ananas"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Stücken"
 * ingredient[=].substanceCodeableConcept.text = "Mango"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "ganzer Saft"
 * ingredient[=].substanceCodeableConcept.text = "Limette"
 

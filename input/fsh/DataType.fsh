@@ -7,9 +7,9 @@ Description: "Profile of the data type Quantity"
 * value MS
 * unit MS
 * system MS
-* system ^fixedUri = "http://cooking-on-fire.ch/fhir/CodeSystem/cof-units"
+* system ^fixedUri = "http://cooking-on-fire.ch/fhir/CodeSystem/cof-unit"
 * code MS
-* code from CoFUnits
+* code from CoFUnit
 
 
 Profile: CoFRatio

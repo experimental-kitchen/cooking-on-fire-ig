@@ -86,39 +86,39 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 200
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Dinkelmehl"
 
 * ingredient[+].quantity.numerator.value = 50
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "gemahlene Haselnüsse"
 
 * ingredient[+].quantity.numerator.value = 2
-* ingredient[=].quantity.numerator = CoFUnits#TL "Teelöffel"
+* ingredient[=].quantity.numerator = CoFUnit#TL "Teelöffel"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Backpulver"
 
 * ingredient[+].quantity.numerator.value = 0.5
-* ingredient[=].quantity.numerator = CoFUnits#TL "Teelöffel"
+* ingredient[=].quantity.numerator = CoFUnit#TL "Teelöffel"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Natron"
 
 * ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.numerator = CoFUnits#EL "Esslöffel"
+* ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Lebkuchengewürz"
 
 * ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.numerator = CoFUnits#Prise(n) "Prise(n)"
+* ingredient[=].quantity.numerator = CoFUnit#Prise(n) "Prise(n)"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Salz"
 
 
@@ -130,33 +130,33 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].quantity.numerator.value = 250
-* ingredient[=].quantity.numerator = CoFUnits#ml "Milliliter"
+* ingredient[=].quantity.numerator = CoFUnit#ml "Milliliter"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Mandeldrink"
 
 * ingredient[+].quantity.numerator.value = 55
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Kokosöl"
 
 * ingredient[+].quantity.numerator.value = 120
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Kokosblütenzucker oder brauner Zucker"
 
 * ingredient[+].quantity.numerator.value = 40
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Apfelmus, ungesüsst"
 
 * ingredient[+].quantity.numerator.value = 1
-* ingredient[=].quantity.numerator = CoFUnits#EL "Esslöffel"
+* ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.text = "Apfelessig"
 
 
@@ -169,14 +169,14 @@ Usage: #inline
 
 * ingredient[+].quantity.numerator.value = 2
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "längs in dünnen Scheiben"
 * ingredient[=].substanceCodeableConcept.text = "Birnen"
 
 * ingredient[+].quantity.numerator.value = 50
-* ingredient[=].quantity.numerator = CoFUnits#g "Gramm"
+* ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
-* ingredient[=].quantity.denominator = CoFUnits#Portion(en) "Portion(en)"
+* ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "halbiert"
 * ingredient[=].substanceCodeableConcept.text = "Haselnüsse"
 

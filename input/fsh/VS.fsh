@@ -33,8 +33,8 @@ Description: "ValueSet of the season"
 * include codes from system CoFSeason
 
 
-ValueSet: CoFUnits
-Id: cof-units
-Title: "CoF Units"
-Description: "ValueSet of the units"
-* include codes from system CoFUnits
+ValueSet: CoFUnit
+Id: cof-unit
+Title: "CoF Unit"
+Description: "ValueSet of the unit"
+* include codes from system CoFUnit
