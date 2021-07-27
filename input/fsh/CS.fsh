@@ -57,7 +57,7 @@ Description: "CodeSystem of the (meteorological) season"
 CodeSystem: CoFHalfMonth
 Id: cof-halfmonth
 Title: "CoF Half month"
-Description: "CodeSystem of the half month"
+Description: "CodeSystem of the half month (1st half: 01.-15., 2nd half: 16.-30./31.)"
 * #january-1st-half "Januar - 1. Hälfte"
 * #january-2nd-half "Januar - 2. Hälfte"
 * #february-1st-half "Februar - 1. Hälfte"
