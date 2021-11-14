@@ -4,7 +4,7 @@ Milja and Ron also like to cook for friends. Unfortunately, not all guests (as t
 ### Enter recipe
 Milja enters a new [recipe for an asparagus tart](PlanDefinition-a05feeec-019a-4e29-ad2b-b7c3b3940f49.html) in the 'Cooking on Fire' app, for the household Cook. She enters the different cooking steps and the ingredients needed to prepare this dish. The effort required to cook the dish, the diet, the season or a comment on the recipe can also be entered. 
 
-{% include img.html img="recipe.png" caption="Fig.: Recipe aka PlanDefinition " width="60%" %}
+{% include img.html img="recipe.png" caption="Fig.: Recipe aka PlanDefinition" width="60%" %}
 
 Milja can also add a photo of this deliciously cooked starter or main course in the app, either when entering the recipe or later.
 
@@ -58,3 +58,9 @@ When Ron and Milja invite their friends to a meal, they can be added to the menu
 Ron and Milja are happy that [Tobias](Patient-Tobias.html) and [Livia](Patient-Livia.html) will soon be coming for dinner. Tobias is [lactose intolerant](AllergyIntolerance-LactoseIntoleranceTobias.html) and Livia is a [vegetarian](AllergyIntolerance-VegetarianLivia.html). Thanks to the app and its filter function for recipes, planning is no longer difficult.   
 Milja wants to [cook](Procedure-CookingDinner20210227.html) a delicious dinner for [them all](Group-GroupDinner20210227.html) on [2021-02-27](Encounter-Dinner20210227.html) and is planning [beetroot pralines with macadamia](PlanDefinition-56d58ce7-dfb2-4d3c-adbf-b85d69368815.html) for starters, [lemon-pumpkin fish stew](PlanDefinition-65257078-33e4-48b2-90ce-7f8a086f49b9.html) for the main dish and [pear tart with hazelnuts](PlanDefinition-e46400ab-889f-45ca-93ef-f7a34cafb984.html) for dessert.
 
+
+**REST endpoints**
+number of people for the meal
+Group.quantity
+Encounter hat Group
+Encounter.period.start

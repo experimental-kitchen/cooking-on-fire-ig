@@ -1,0 +1,80 @@
+@host = http://hapi.fhir.org/baseR4
+
+// ============================== Meals and Guests ============================== //
+
+### Patient
+PUT {{host}}/Patient/Livia HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Patient-Livia.json
+
+### Patient
+PUT {{host}}/Patient/Milja HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Patient-Milja.json
+
+### Patient
+PUT {{host}}/Patient/Ron HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Patient-Ron.json
+
+### Patient
+PUT {{host}}/Patient/Tobias HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Patient-Tobias.json
+
+
+
+### Dinner 2021-02-14: Group
+PUT {{host}}/Group/GroupDinner20210214 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Group-GroupDinner20210214.json
+
+### Dinner 2021-02-14: Procedure
+PUT {{host}}/Procedure/CookingDinner20210214 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Procedure-CookingDinner20210214.json
+
+### Dinner 2021-02-14: Encounter
+PUT {{host}}/Encounter/Dinner20210214 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Encounter-Dinner20210214.json
+
+
+
+### Dinner 2021-02-27: Group
+PUT {{host}}/Group/GroupDinner20210227 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Group-GroupDinner20210227.json
+
+### Dinner 2021-02-27: Procedure
+PUT {{host}}/Procedure/CookingDinner20210227 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Procedure-CookingDinner20210227.json
+
+### Dinner 2021-02-27: Encounter
+PUT {{host}}/Encounter/Dinner20210227 HTTP/1.1
+Content-Type: application/fhir+json
+
+< fsh-generated/resources/Encounter-Dinner20210227.json
+
+
+// ------------------------------------------------------------------------------------ //
+
+### anzahl personen beim dinner am 2021-02-14
+### All cooks (Practitioner) of the "logged in" household (Organization)
+### GET {{host}}/Practitioner?_has:PractitionerRole:practitioner:organization.name=Household Cook HTTP/1.1
+GET {{host}}/Group?_has:Encounter:subject:date=ge2021-02-14T16:00&date=le2021-02-14T22:00 HTTP/1.1
+Content-Type: application/fhir+json
+
+
+
+### y GET {{host}}/Encounter?date=eq2021-02-14
