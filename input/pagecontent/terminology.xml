@@ -16,8 +16,4 @@
     {% include list-simple-conceptmaps.xhtml %}
   </div>
 
-  <h3>NamingSystems</h3>
-  <div>
-    {% include list-simple-namingsystems.xhtml %}
-  </div>
 </div>
