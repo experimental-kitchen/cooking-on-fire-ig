@@ -2,6 +2,7 @@ CodeSystem: CoFRecipeCategory
 Id: cof-recipecategory
 Title: "CoF Recipe category"
 Description: "CodeSystem of the recipe category"
+* ^caseSensitive = true
 * #aperitif "Apéro"
 * #starter "Vorspeise"
 * #main-dish "Hauptspeise"
@@ -15,6 +16,7 @@ CodeSystem: CoFEffort
 Id: cof-effort
 Title: "CoF Effort"
 Description: "CodeSystem of the effort to cook the meal"
+* ^caseSensitive = true
 * #1 "Geht ganz schnell"
 * #2 "Ein bisschen was zu machen"
 * #3 "Gut Ding will Weile haben"
@@ -24,6 +26,7 @@ CodeSystem: CoFDiet
 Id: cof-diet
 Title: "CoF Diet"
 Description: "CodeSystem of the diet"
+* ^caseSensitive = true
 * #vegetarian "Vegetarisch"
 * #vegan "Vegan"
 * #lactose-free "Laktosefrei"
@@ -35,6 +38,7 @@ CodeSystem: CoFAllergyIntoleranceSubstance
 Id: cof-allergyintolerancesubstance
 Title: "CoF Allergy/Intolerance substance"
 Description: "CodeSystem of the allergy/intolerance substances"
+* ^caseSensitive = true
 * #meat-products "Fleisch & Fleischprodukte"
 * #animal-products "Tierische Produkte"
 * #lactose "Laktose"
@@ -47,6 +51,7 @@ CodeSystem: CoFSeason
 Id: cof-season
 Title: "CoF Season"
 Description: "CodeSystem of the (meteorological) season"
+* ^caseSensitive = true
 * #spring "Frühling (01.03. bis 31.05.)"
 * #summer "Sommer (01.06. bis 31.08.)"
 * #autumn "Herbst (01.09. bis 30.11.)"
@@ -58,6 +63,7 @@ CodeSystem: CoFHalfMonth
 Id: cof-halfmonth
 Title: "CoF Half month"
 Description: "CodeSystem of the half month (1st half: 01.-15., 2nd half: 16.-30./31.)"
+* ^caseSensitive = true
 * #january-1st-half "Januar - 1. Hälfte"
 * #january-2nd-half "Januar - 2. Hälfte"
 * #february-1st-half "Februar - 1. Hälfte"
@@ -88,6 +94,7 @@ CodeSystem: CoFUnit
 Id: cof-unit
 Title: "CoF Unit"
 Description: "CodeSystem of the unit"
+* ^caseSensitive = true
 * #l "Liter"
 * #dl "Deziliter"
 * #cl "Centiliter"
