@@ -8,7 +8,7 @@ Description: "Profile of the meal"
 * . ^short = "Meal aka CoF Encounter"
 * status MS
 * class MS
-* class = ActCode#HH
+* class = $ActCode#HH
 * subject MS
 * subject only Reference(CoFGroup)
 * participant and participant.individual MS
@@ -23,7 +23,7 @@ InstanceOf: CoFEncounter
 Title: "Dinner 2021-02-14"
 Description: "Example of a meal (CoF Encounter)"
 * status = #planned
-* class = ActCode#HH "home health"
+* class = $ActCode#HH "home health"
 * subject = Reference(GroupDinner20210214)
 * participant.individual = Reference(RonCookHouseholdCook)
 * period.start = "2021-02-14T17:00:00.000+02:00"
@@ -36,7 +36,7 @@ InstanceOf: CoFEncounter
 Title: "Dinner 2021-02-27"
 Description: "Example of a meal (CoF Encounter)"
 * status = #planned
-* class = ActCode#HH "home health"
+* class = $ActCode#HH "home health"
 * subject = Reference(GroupDinner20210227)
 * participant.individual = Reference(MiljaCookHouseholdCook)
 * period.start = "2021-02-27T17:00:00.000+02:00"

@@ -7,7 +7,7 @@ Title: "CoF AllergyIntolerance"
 Description: "Profile of the allergy/dislike of a eater"
 * . ^short = "Allergy/dislike of a eater aka CoF AllergyIntolerance"
 * clinicalStatus 1.. MS
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category 1.. MS
 * category = #food
 * code 1.. MS
@@ -27,7 +27,7 @@ Instance: NoKnownAllergyDislikeRon
 InstanceOf: CoFAllergyIntolerance
 Title: "No known allergy/dislike (Ron)"
 Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category = #food
 * code = CoFAllergyIntoleranceSubstance#no-known "Keine Allergien/Intoleranzen oder Abneigungen bekannt"
 * patient = Reference(Ron)
@@ -37,7 +37,7 @@ Instance: SeafoodAllergyMilja
 InstanceOf: CoFAllergyIntolerance
 Title: "Seafood allergy (Milja)"
 Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category = #food
 * code.text = "Meeresfrüchte"
 * patient = Reference(Milja)
@@ -47,7 +47,7 @@ Instance: PineappleDislikeMilja
 InstanceOf: CoFAllergyIntolerance
 Title: "Pineapple dislike (Milja)"
 Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category = #food
 * code.text = "Ananas"
 * patient = Reference(Milja)
@@ -57,7 +57,7 @@ Instance: VegetarianLivia
 InstanceOf: CoFAllergyIntolerance
 Title: "Vegetarian (Livia)"
 Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category = #food
 * code = CoFAllergyIntoleranceSubstance#meat-products "Fleisch & Fleischprodukte"
 * patient = Reference(Livia)
@@ -67,7 +67,7 @@ Instance: LactoseIntoleranceTobias
 InstanceOf: CoFAllergyIntolerance
 Title: "Lactose intolerance (Tobias)"
 Description: "Example of a allergy/dislike of a eater (CoF AllergyIntolerance)"
-* clinicalStatus = AIClinical#active
+* clinicalStatus = $AIClinical#active
 * category = #food
 * code = CoFAllergyIntoleranceSubstance#lactose "Laktose"
 * patient = Reference(Tobias)
