@@ -1,5 +1,5 @@
-ValueSet: CoFNonAlcoholicDrinks
-Id: cof-nonalcoholicdrinks
-Title: "CoF Non-alcoholic drinks"
-Description: "ValueSet of the non-alcoholic drinks"
-* include codes from system CoFFood where concept is-a #1
+ValueSet: CoFFood
+Id: cof-food
+Title: "CoF Food"
+Description: "ValueSet of the food"
+* include codes from system CoFFood
