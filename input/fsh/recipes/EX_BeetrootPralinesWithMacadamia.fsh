@@ -71,26 +71,26 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfel"
-* ingredient[=].substanceCodeableConcept.text = "gekochte Randen"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.2.1 "Rande gekocht"
 
 * ingredient[+].quantity.numerator.value = 2.5
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Rohzucker"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#15.12.2 "Rohzucker"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Wasser"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#1.7.1 "Wasser"
 
 * ingredient[+].quantity.numerator.value = 50
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "fein geschnitten"
-* ingredient[=].substanceCodeableConcept.text = "entsteinte Dörrpflaumen"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "entsteint, fein geschnitten"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#10.3.1 "Dörrpflaumen"
 
 
 Instance: 10f76fe4-cc8e-4746-8c43-1b7ec7cad24a
@@ -105,5 +105,5 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "fein gehackt"
-* ingredient[=].substanceCodeableConcept.text = "Macadamia-Nüsse"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#14.1.9 "Macadamianüsse"
 

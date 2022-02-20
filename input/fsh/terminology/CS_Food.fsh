@@ -6,7 +6,8 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
 
-// alphabetically sorted (level 0-1) and numbered in ascending order
+// level 0-1:   alphabetically sorted and numbered in ascending order
+// level 2:     new values are added consecutively and numbered in ascending order
 
 * #1 "Alkoholfreie Getränke"
 * #2 "Alkoholhaltige Getränke"
@@ -48,6 +49,7 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #1 #1.6 "Tee"
 
 * #1 #1.7 "Trinkwasser"
+* #1 #1.7 #1.7.1 "Wasser"
 
 
 //----- Alkoholhaltige Getränke -----//
@@ -107,6 +109,7 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #3 #3.1 #3.1.17 "Weissbrot"
 * #3 #3.1 #3.1.18 "Weizenvollkornbrot (Grahambrot)"
 * #3 #3.1 #3.1.19 "Zopf"
+* #3 #3.1 #3.1.20 "Brot"
 
 * #3 #3.2 "Flocken, Kleie, Keime und Cerealien"
 * #3 #3.2 #3.2.1 "Cornflakes"
@@ -155,6 +158,7 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #5 #5.2 #5.2.11 "Sonnenblumenöl"
 * #5 #5.2 #5.2.12 "Traubenkernöl"
 * #5 #5.2 #5.2.13 "Weizenkeimöl"
+* #5 #5.2 #5.2.14 "Bratöl"
 
 * #5 #5.3 "Mayonnaise und Salatsaucen"
 * #5 #5.3 #5.3.1 "Mayonnaise"
@@ -174,7 +178,10 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #7 #7.1 "Geflügel"
 * #7 #7.2 "Kalb"
 * #7 #7.3 "Lamm, Schaf"
+
 * #7 #7.4 "Rind"
+* #7 #7.4 #7.4.1 "Rindsvoressen"
+
 * #7 #7.5 "Schwein"
 * #7 #7.6 "Sonstige Tierarten"
 * #7 #7.7 "Wild"
@@ -182,10 +189,41 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 
 //----- Fleisch- und Wurstwaren -----//
 * #8 #8.1 "Brühwurstware"
-* #8 #8.2 "Kochwurstware"
-* #8 #8.3 "Rohwurstware"
-* #8 #8.4 "Sonstige Fleisch- und Wurstwaren"
+* #8 #8.1 #8.1.1 "Lyoner"
+* #8 #8.1 #8.1.2 "Weisswurst"
+* #8 #8.1 #8.1.3 "Wiener Würstchen"
+* #8 #8.1 #8.1.4 "Mortadella"
+* #8 #8.1 #8.1.5 "Fleischkäse"
+* #8 #8.1 #8.1.6 "Berner Würstchen"
+* #8 #8.1 #8.1.7 "Cervelat"
+* #8 #8.1 #8.1.8 "Kalbsbratwurst"
+* #8 #8.1 #8.1.9 "Schweinsbratwurst"
+* #8 #8.1 #8.1.10 "Fleischwurst"
 
+* #8 #8.2 "Kochwurstware"
+* #8 #8.2 #8.2.1 "Blutwurst"
+* #8 #8.2 #8.2.2 "Leberwurst"
+
+* #8 #8.3 "Rohwurstware"
+* #8 #8.3 #8.3.1 "Salami"
+* #8 #8.3 #8.3.2 "Salametti"
+* #8 #8.3 #8.3.3 "Salsiz"
+* #8 #8.3 #8.3.4 "Saucisson"
+* #8 #8.3 #8.3.5 "Landjäger"
+* #8 #8.3 #8.3.6 "Schüblig"
+* #8 #8.3 #8.3.7 "Mettwurst"
+* #8 #8.3 #8.3.8 "Teewurst"
+
+* #8 #8.4 "Sonstige Fleisch- und Wurstwaren"
+* #8 #8.4 #8.4.1 "Bresaola"
+* #8 #8.4 #8.4.2 "Mostbröckli"
+* #8 #8.4 #8.4.3 "Rippli"
+* #8 #8.4 #8.4.4 "Rollschinkli"
+* #8 #8.4 #8.4.5 "Vorderschinken"
+* #8 #8.4 #8.4.6 "Hinterschinken"
+* #8 #8.4 #8.4.7 "Rohschinken"
+* #8 #8.4 #8.4.8 "Bündnerfleisch"
+* #8 #8.4 #8.4.9 "Speck"
 
 //----- Fleischersatzprodukte -----//
 // -
@@ -194,43 +232,113 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 //----- Früchte -----//
 * #10 #10.1 "Früchte frisch"
 * #10 #10.2 "Früchte gekocht (inkl. Konserven)"
+
 * #10 #10.3 "Früchte getrocknet"
+* #10 #10.3 #10.3.1 "Dörrpflaumen"
 
 
-//----- Gemüse -----//
+//----- Gemüse -----// 
+// https://www.gemuese.ch/saisonkalender
 * #11 #11.1 "Gemüse frisch"
+* #11 #11.1 #11.1.1 "Spargeln weiss"
+* #11 #11.1 #11.1.2 "Spargeln grün"
+* #11 #11.1 #11.1.3 "Spargeln grün extra-fein"
+* #11 #11.1 #11.1.4 "Süsskartoffeln"
+* #11 #11.1 #11.1.5 "Rüebli"
+* #11 #11.1 #11.1.6 "Rande"
+* #11 #11.1 #11.1.7 "Cicorino rot"
+* #11 #11.1 #11.1.8 "Chicorée"
+* #11 #11.1 #11.1.9 "Lauch"
+* #11 #11.1 #11.1.10 "Portulak"
+* #11 #11.1 #11.1.11 "Kürbis"
+* #11 #11.1 #11.1.12 "Zuckerhut"
+* #11 #11.1 #11.1.13 "Rosenkohl"
+* #11 #11.1 #11.1.14 "Federkohl"
+* #11 #11.1 #11.1.15 "Blumenkohl"
+* #11 #11.1 #11.1.16 "Romanesco"
+* #11 #11.1 #11.1.17 "Knollensellerie"
+* #11 #11.1 #11.1.18 "Stangensellerie"
+* #11 #11.1 #11.1.19 "Kohlrabi"
+* #11 #11.1 #11.1.20 "Bundrüebli"
+* #11 #11.1 #11.1.21 "Wirz"
+* #11 #11.1 #11.1.22 "Zwiebel"
+
+
 * #11 #11.2 "Gemüse gekocht (inkl. Konserven)"
+* #11 #11.2 #11.2.1 "Rande gekocht"
+
 * #11 #11.3 "Gemüse/Gemüse getrocknet"
+
 * #11 #11.4 "Kräuter"
+* #11 #11.4 #11.4.1 "Basilikum"
+* #11 #11.4 #11.4.2 "Petersilie glatt"
+* #11 #11.4 #11.4.3 "Petersilie kraus"
+* #11 #11.4 #11.4.4 "Schnittlauch"
+* #11 #11.4 #11.4.5 "Oregano"
+* #11 #11.4 #11.4.6 "Thymian"
+* #11 #11.4 #11.4.7 "Koriander"
+* #11 #11.4 #11.4.8 "Dill"
+
 * #11 #11.5 "Pilze"
 * #11 #11.6 "Sprossen und Keimlinge"
 
 
 //----- Getreideprodukte, Hülsenfrüchte und Kartoffeln -----//
 * #12 #12.1 "Hülsenfrüchte"
+
 * #12 #12.2 "Kartoffeln"
+* #12 #12.2 #12.2.1 "Kartoffeln festkochend"
+* #12 #12.2 #12.2.2 "Kartoffeln mehligkochend"
+* #12 #12.2 #12.2.3 "Frühkartoffeln"
+* #12 #12.2 #12.2.4 "Raclette-Kartoffeln"
+* #12 #12.2 #12.2.5 "Kartoffeln blau"
+
 * #12 #12.3 "Mais"
 * #12 #12.4 "Mehle und Stärke"
 * #12 #12.5 "Reis"
 * #12 #12.6 "Sonstige Getreideprodukte"
+
 * #12 #12.7 "Teige"
+* #12 #12.7 #12.7.1 "Kuchenteig rechteckig"
+* #12 #12.7 #12.7.2 "Kuchenteig rund"
+* #12 #12.7 #12.7.3 "Blätterteig rechteckig"
+* #12 #12.7 #12.7.4 "Blätterteig rund"
+* #12 #12.7 #12.7.5 "Pizzateig rechteckig"
+* #12 #12.7 #12.7.6 "Pizzateig rund"
+
 * #12 #12.8 "Teigwaren"
 
 
 //----- Milch und Milchprodukte -----//
 * #13 #13.1 "Frischkäse und Quark"
 * #13 #13.2 "Hartkäse"
+
 * #13 #13.3 "Joghurt und Sauermilch"
+* #13 #13.3 #13.3.1 "Griechisches Joghurt nature"
+* #13 #13.3 #13.3.2 "Joghurt nature"
+
 * #13 #13.4 "Käseerzeugnisse"
 * #13 #13.5 "Milch"
 * #13 #13.6 "Milch- und Joghurtgetränke"
 * #13 #13.7 "Milchersatzprodukte"
+
 * #13 #13.8 "Rahm und Butter"
+* #13 #13.8 #13.8.1 "Saurer Halbrahm"
+
 * #13 #13.9 "Weichkäse"
 
 
 //----- Nüsse, Samen und Ölfrüchte -----//
-// -
+* #14 #14.1 "Nüsse, Kerne"
+* #14 #14.1 #14.1.1 "Cashewkerne"
+* #14 #14.1 #14.1.2 "Baumnüsse"
+* #14 #14.1 #14.1.3 "Haselnüsse"
+* #14 #14.1 #14.1.4 "Paranusskerne"
+* #14 #14.1 #14.1.5 "Erdnüsse"
+* #14 #14.1 #14.1.6 "Mandeln"
+* #14 #14.1 #14.1.7 "Pistazien"
+* #14 #14.1 #14.1.8 "Pekannüsse"
+* #14 #14.1 #14.1.9 "Macadamianüsse"
 
 
 //----- Süssigkeiten -----//
@@ -245,7 +353,10 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #15 #15.9 "Schokolade und Kakaoerzeugnisse"
 * #15 #15.10 "Sonstige süsse Backwaren"
 * #15 #15.11 "Sonstige Süssigkeiten"
+
 * #15 #15.12 "Zucker und Süssstoffe"
+* #15 #15.12 #15.12.1 "Kristallzucker"
+* #15 #15.12 #15.12.2 "Rohzucker"
 
 
 //----- Verschiedenes -----//
@@ -253,9 +364,22 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #16 #16.2 "Backzutaten"
 * #16 #16.3 "Gelier- und Bindemittel"
 * #16 #16.4 "Hefe"
+
 * #16 #16.5 "Salz, Gewürze und Aromen"
+* #16 #16.5 #16.5.1 "Salz"
+* #16 #16.5 #16.5.2 "Pfeffer"
+* #16 #16.5 #16.5.3 "Paprikapulver"
+* #16 #16.5 #16.5.4 "Paprikapulver rosenscharf"
+* #16 #16.5 #16.5.5 "Paprikapulver ungarisch"
+* #16 #16.5 #16.5.6 "Cayennepfeffer"
+
 * #16 #16.6 "Saucen"
 
-
-// TBD
-// Bouillons?
+* #16 #16.7 "Sonstiges"
+* #16 #16.7 #16.7.1 "Tomatenpüree" 
+* #16 #16.7 #16.7.2 "Gemüsebouillon"
+* #16 #16.7 #16.7.3 "Rindsbouillon"
+* #16 #16.7 #16.7.4 "Geflügelbouillon"
+* #16 #16.7 #16.7.5 "Kalbsfond"
+* #16 #16.7 #16.7.6 "Geflügelfond"
+* #16 #16.7 #16.7.7 "Rindsfond"

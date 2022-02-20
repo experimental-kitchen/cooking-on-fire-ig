@@ -89,40 +89,40 @@ Usage: #inline
 * code.text = "Product of a recipe step"
 
 * ingredient[+].substanceCodeableConcept.extension[comment].valueString = "zum Andämpfen"
-* ingredient[=].substanceCodeableConcept.text = "Öl"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#5.2.14 "Bratöl"
 
 * ingredient[+].quantity.numerator.value = 600
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(z.B. Hals, Schulter), in Würfeln"
-* ingredient[=].substanceCodeableConcept.text = "Rindsvoressen"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#7.4.1 "Rindsvoressen"
 
 * ingredient[+].quantity.numerator.value = 300
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfeln"
-* ingredient[=].substanceCodeableConcept.text = "Karfoffeln"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.2.1 "Kartoffeln festkochend"
 
 * ingredient[+].quantity.numerator.value = 200
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfeln"
-* ingredient[=].substanceCodeableConcept.text = "Rüebli"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.5 "Rüebli"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfeln"
-* ingredient[=].substanceCodeableConcept.text = "kleiner Sellerie"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.17 "Knollensellerie"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Stücken"
-* ingredient[=].substanceCodeableConcept.text = "grosse Zwiebel"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.22 "Zwiebel"
 
 
 Instance: 8d40a6e1-0e0d-4b93-8c28-30441089bd3f
@@ -136,21 +136,21 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Tomatenpüree"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.7.1 "Tomatenpüree"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Paprikapulver"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.5.3 "Paprikapulver"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#TL "Teelöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Salz"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.5.1 "Salz"
 
-* ingredient[+].substanceCodeableConcept.text = "Pfeffer"
+* ingredient[+].substanceCodeableConcept.coding = $CoFFood#16.5.2 "Pfeffer"
 
 
 Instance: 387b02e0-6f17-4182-830b-16343ae41cd9
@@ -164,13 +164,13 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Fleischbouillon"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.7.3 "Rindsbouillon"
 
 * ingredient[+].quantity.numerator.value = 2
 * ingredient[=].quantity.numerator = CoFUnit#dl "Deziliter"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Rotwein"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#2.3.4 "Rotwein"
 
 
 Instance: b1e24c12-f7ba-4886-bbf7-8e1f201a5f99
@@ -184,13 +184,13 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#Becher "Becher"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "saurer Halbrahm"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#13.8.1 "Saurer Halbrahm"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "fein geschnitten"
-* ingredient[=].substanceCodeableConcept.text = "Thymian"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.4.6 "Thymian"
 
-* ingredient[+].substanceCodeableConcept.text = "Brot"
+* ingredient[+].substanceCodeableConcept.coding = $CoFFood#3.1.20 "Brot"

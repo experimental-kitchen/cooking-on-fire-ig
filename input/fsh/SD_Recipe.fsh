@@ -56,7 +56,7 @@ Description: "Profile of the recipe"
 * action.title ^fixedString = "Schritt"
 * action.definitionCanonical 1.. MS
 * action.definitionCanonical ^short = "Recipe step itself (ActivityDefinition)"
-* action.definitionCanonical only Canonical(CoFActivityDefinition)
+* action.definitionCanonical only Canonical($CoFActivityDefinition)
 
 
 // ============================== Profile ActivityDefinition ============================== //
@@ -92,4 +92,7 @@ Description: "Profile of the product of a recipe step"
 * ingredient.quantity.denominator MS
 * ingredient.substanceCodeableConcept 1.. MS
 * ingredient.substanceCodeableConcept.extension contains CoFComment named comment 0..1 MS
-* ingredient.substanceCodeableConcept.text 1.. MS
+* ingredient.substanceCodeableConcept.coding from CoFFood (required)
+* ingredient.substanceCodeableConcept.coding MS
+* ingredient.substanceCodeableConcept.text MS
+// TBD: constraint required coding or text element

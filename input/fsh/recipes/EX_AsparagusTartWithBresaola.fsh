@@ -82,13 +82,13 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(ca. 25 x 48 cm)"
-* ingredient[=].substanceCodeableConcept.text = "ausgewallter Kuchenteig rechteckig"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.7.1 "Kuchenteig rechteckig"
 
 * ingredient[+].quantity.numerator.value = 150
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "griechisches Joghurt nature"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#13.3.1 "Griechisches Joghurt nature"
 
 
 Instance: 7f18f11f-f85f-4801-a012-076ac23fd449
@@ -102,27 +102,27 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "grüne Spargeln"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.2 "Spargeln grün"
 
 * ingredient[+].quantity.numerator.value = 0.5
 * ingredient[=].quantity.numerator = CoFUnit#Bund "Bund"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Basilikum"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.4.1 "Basilikum"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Olivenöl"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#5.2.8 "Olivenöl"
 
 * ingredient[+].quantity.numerator.value = 0.5
 * ingredient[=].quantity.numerator = CoFUnit#TL "Teelöffel"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Salz"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.5.1 "Salz"
 
-* ingredient[=].substanceCodeableConcept.text = "Pfeffer"
+* ingredient[+].substanceCodeableConcept.coding = $CoFFood#16.5.2 "Pfeffer"
 
 
 Instance: 1e22f1e0-e100-423b-8735-2ec0579dbfa2
@@ -136,10 +136,11 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Bresaola in Tranchen"
+* ingredient[=].substanceCodeableConcept.extension[comment].valueString = "Tranchen"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#8.4.1 "Bresaola"
 
 * ingredient[+].quantity.numerator.value = 0.5
 * ingredient[=].quantity.numerator = CoFUnit#Bund "Bund"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.text = "Basilikum"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.4.1 "Basilikum"
