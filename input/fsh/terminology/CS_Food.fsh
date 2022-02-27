@@ -211,16 +211,155 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 
 
 //----- Fleisch und Innereien -----//
+Gehacktes (Durchschnitt aus Rind, Kalb, Schwein, Poulet), gebraten (ohne Zusatz von Fett und Salz)	
+Geschnetzeltes (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), gebraten (ohne Zusatz von Fett und Salz)	
+Plätzli (Durchschnitt aus Geflügel, Kalb, Rind, Schwein), gebraten (ohne Zusatz von Fett und Salz)	
+Leber (Durchschnitt aus Rind, Kalb, Schwein), gebraten (ohne Zusatz von Fett und Salz)	
+Kotelett (Durchschnitt aus Kalb, Schwein, Lamm), gebraten (ohne Zusatz von Fett und Salz)	
+
+
 * #7 #7.1 "Geflügel"
+Poulet, Brust, mit Haut, roh	
+Poulet, Brust (Pouletschnitzel), ohne Haut, roh	
+Poulet, Schenkel, mit Haut, roh	
+Poulet, Schenkel, ohne Haut, roh	
+Poulet, ganz, mit Haut, roh	
+Truthahn, Brust, Schnitzel oder Geschnetzeltes, roh	
+Geflügelfleisch (Durchschnitt exkl. Innereien), roh	
+Geflügelfleisch ohne Haut (Durchschnitt exkl. Innereien), roh	
+Geflügelfleisch mit Haut (Durchschnitt), roh	
+Truthahn, Brust, Schnitzel oder Geschnetzeltes, grebraten (ohne Zusatz von Fett und Salz)	
+Poulet, Brust, Schnitzel oder Geschnetzeltes, gebraten (ohne Zusatz von Fett und Salz)	
+Poulet, ganz, mit Haut, gebraten (ohne Zusatz von Fett und Salz)	
+Poulet, Schenkel, mit Haut, gebraten (ohne Zusatz von Fett und Salz)	
+
 * #7 #7.2 "Kalb"
+Kalb, Brust, roh	
+Kalb, Kotelett, roh	
+Kalb, Nierstück, Steak, roh	
+Kalb, Leber, roh	
+Kalb, Gehacktes (Hackfleisch), roh	
+Kalb, Geschnetzeltes, roh	
+Kalb, Runder Mocken (Saftplätzli), roh	
+Kalb, Voressen (Ragout), roh	
+Kalb, Schulter, Braten, roh	
+Kalb, Filet, roh	
+Kalb, Haxe, roh	
+Kalb, Eckstück (Plätzli), roh	Plätzli
+Kalb, Milken (Bries), roh	Bries
+Kalb, Niere, roh	
+Kalb, Zunge, roh	
+Kalb, Brust, gekocht (ohne Zugabe von Fett und Salz)	
+Kalb, Schulter, Braten, im Ofen gebraten (ohne Zugabe von Fett und Salz)	
+Kalbfleisch (Durchschnitt exkl. Innereien, Kotelett), roh	
+Cordon Bleu aus Kalbsplätzli, gebraten	
+Vitello tonnato ohne Garnitur	
+Vitello tonnato mit Garnitur	
+Kalbsplätzli, gebraten in HOLL-Rapsöl	
+Saltimbocca, gebraten in HOLL-Rapsöl	
+Kalbsplätzli, gebraten (ohne Zugabe von Fett und Salz)	
+Kalb, Nierstück, Steak, gebraten (ohne Zugabe von Fett und Salz)	
+Kalb, Geschnetzeltes, gebraten (ohne Zugabe von Fett und Salz)	
+Kalb, Haxe, geschmort (ohne Zugabe von Fett und Salz)	
+
 * #7 #7.3 "Lamm, Schaf"
+Lamm, Gigot (Keule), roh	
+Lamm, Kotelett, roh	
+Lamm, Nierstück, roh	
+Lamm, Racks, roh	
+Lamm, Voressen (Ragout), roh	
+Lamm, Filet, roh	
+Lamm/Schaf (Durchschnitt exkl. Innereien, Kotelett), roh	
+Lamm, Filet, medium" gebraten (ohne Zusatz von Fett und Salz)"	
+Lamm, Gigot, gebraten (ohne Zusatz von Fett und Salz)	
 
 * #7 #7.4 "Rind"
 * #7 #7.4 #7.4.1 "Rindsvoressen"
 
+Rind, Gehacktes (Hackfleisch), roh	
+Rind, Entrecôte, roh	
+Rind, Hohrücken, roh	
+Rind, Runder Mocken (Saftplätzli), roh	
+Rind, Siedfleisch, durchzogen,  roh	
+Rind, Siedfleisch, mager, roh	
+Rind, Geschnetzeltes, roh	
+Rind, Voressen (Ragout), roh	
+Rind, Schulter, Braten, roh	
+Rind, Filet, roh	
+Rind, Eckstück (Plätzli), roh	Plätzli
+Rind, Hals (Voressen, Gulasch), roh	Voressen;Gulasch
+Rind, Zunge, roh	
+Rind, Leber, roh	
+Rind, Brust, roh	
+Rind, Brust, gekocht (ohne Zugabe von Fett und Salz)	
+Rind, Schulter, Braten rare", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
+Rind, Schulter, Braten medium", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
+Rind, Schulter, Braten well done", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
+Rindfleisch (Durchschnitt exkl. Innereien, Rippensteak), roh	
+Hackplätzli (Rind), gebraten in Rapsöl HOLL	
+Rind, Entrecôte, medium" gebraten (ohne Zusatz von Fett und Salz)"	
+Rind, Filet, medium" gebraten (ohne Zustatz von Fett und Salz)"	
+Rind, Siedfleisch, durchzogen, gekocht (ohne Zusatz von Fett und Salz)	
+Rind, Siedfleisch, mager, gekocht (ohne Zusatz von Fett and Salz)	
+Rind, Gehacktes, gebraten (ohne Zusatz von Fett und Salz)	Hackfleisch
+
+
 * #7 #7.5 "Schwein"
+Schwein, Gehacktes (Hackfleisch), roh	
+Schwein, Kotelett, roh	
+Schwein, Voressen (Ragout), roh	
+Schwein, Brustspitz, roh	
+Schwein, Geschnetzeltes, roh	
+Schwein, Hals, Steak, roh	
+Schwein, Nierstück, roh	
+Schwein, Runder Mocken (Plätzli), roh	
+Schwein, Schulter, Braten, roh	
+Schwein, Filet, roh	
+Schwein, Haxe, roh	
+Schwein, Eckstück (Plätzli), roh	Plätzli
+Schwein, Leber, roh	
+Zampone	Gefüllter Schweinsfuss
+Schwein, Schulter, Braten medium", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
+Schwein, Schulter, Braten well done", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
+Schweinefleisch (Durchschnitt exkl. Innereien, Kotelett, Haxe), roh	
+Cordon Bleu aus Schweinsplätzli, gebraten	
+Schwein, Filet, gebraten (ohne Zusatz von Fett und Salz)	
+Schwein, Eckstück, Plätzli, gebraten (ohne Zusatz von Fett und Salz)	
+Schwein, Kotelett, gebraten (ohne Zusatz von Fett und Salz)	
+Schwein, Hals, Steak, gebraten (ohne Zusatz von Fett und Salz)	
+Schwein, Geschnetzeltes, gebraten (ohne Zusatz von Fett und Salz)	
+Schwein, Haxe, geschmort (ohne zusatz von Fett und Salz)	
+
 * #7 #7.6 "Sonstige Tierarten"
+Kaninchen, Filet, roh	
+Hase (Durchschnitt), roh	
+Pferd, Filet, roh	
+Kaninchen (Durchschnitt), roh	
+Ziege (Durchschnitt), roh	
+Pferd, Filet, gebraten (ohne Zusatz von Fett und Salz)	
+Kaninchen (Durchschnitt), gekocht (ohne Zusatz von Fett und Salz)	
+
 * #7 #7.7 "Wild"
+Hirsch, Entrecôte, roh	
+Reh, Ragout (Rehpfeffer), roh	
+Reh, Schnitzel, roh	
+Hirsch (Durchschnitt), roh	
+Reh (Durchschnitt), roh	
+Wildschwein (Durchschnitt), roh	
+Wildfleischterrine	
+Wildfleisch (Durchschnitt), roh	
+Wildfleisch (Durchschnitt), gekocht (ohne Zusatz von Fett und Salz)	
+
+
+
+Zunge (Durchschnitt aus Kalb und Rind), roh	
+Plätzli (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), roh 	
+Geschnetzeltes (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), roh	
+Gehacktes (Durchschnitt aus Rind, Kalb, Schwein, Poulet), roh	
+Leber (Durchschnitt aus Rind, Kalb, Schwein), roh	
+Plätzli (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), paniert, gebraten	Fleisch paniert
+Fleisch (Durchschnitt exkl. Innereien), roh 	
+Kotelett (Durchschnitt aus Kalb, Schwein, Lamm), roh	
 
 
 //----- Fleisch- und Wurstwaren -----//
