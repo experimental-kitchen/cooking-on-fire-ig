@@ -171,46 +171,43 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 * #6 #6.1 "Fischerzeugnisse"
 * #6 #6.1 #6.1.1 "Surimi"
 * #6 #6.1 #6.1.2 "Rollmops (Hering, sauer)"
+* #6 #6.1 #6.1.3 "Fischstäbchen (paniert)"
+* #6 #6.1 #6.1.4 "Schlemmerfilet (Backofenfisch)"
 
 * #6 #6.2 "Meeresfische"
-Fisch/Meeresfische	193	Lachs, geräuchert	
-Fisch/Meeresfische	194	Lachs, Zucht, roh	
-Fisch/Meeresfische	210	Lachs, Wildfang, roh	
-Fisch/Meeresfische	285	Dorsch (Kabeljau), roh	
-Fisch/Meeresfische	413	Sardine im Öl, abgetropft	
-Fisch/Meeresfische	414	Sardelle im Öl, abgetropft	
-Fisch/Meeresfische	415	Scholle (Goldbutt)	Goldbutt
-Fisch/Meeresfische	417	Thon im Wasser, abgetropft	
-Fisch/Meeresfische	418	Thon im Öl, abgetropft	
-Fisch/Meeresfische	481	Flunder, roh	
-Fisch/Meeresfische	753	Heilbutt, roh	
-Fisch/Meeresfische	754	Seelachs (Kohlfisch, Pollack)	Kohlfisch;Köhler;Pollack
-Fisch/Meeresfische	755	Seezunge, roh	
-Fisch/Meeresfische	756	Thunfisch, roh	
-Fisch/Meeresfische	757	Sardine, roh	
-Fisch/Meeresfische	760	Seehecht, roh	
-Fisch/Meeresfische	773	Fischstäbchen, paniert und vorfritiert	
-Fisch/Meeresfische	1168	Fischstäbchen (paniert und vorfritiert), gebraten in HOLL-Rapsöl	
-Fisch/Meeresfische	1169	Fischstäbchen (paniert und vorfritiert), im Ofen gebacken (ohne Zugabe von Fett)	
-Fisch/Meeresfische	13350	Dorsch, Filet, gedämpft (ohne Zusatz von Fett und Salz)	
-Fisch/Meeresfische	13351	Flunder, Filet, gedämpft (ohne Zusatz von Fett und Salz)	
-Fisch/Meeresfische	13354	Lachs, Zucht, Filet, gedämpft (ohne Zusatz von Fett und Salz)	
+* #6 #6.2 #6.2.1 "Lachs, geräuchert"
+* #6 #6.2 #6.2.2 "Lachs, Zucht"
+* #6 #6.2 #6.2.3 "Lachs, Wildfang"
+* #6 #6.2 #6.2.4 "Dorsch (Kabeljau)"
+* #6 #6.2 #6.2.5 "Sardine im Öl, abgetropft"
+* #6 #6.2 #6.2.6 "Sardelle im Öl, abgetropft"
+* #6 #6.2 #6.2.7 "Scholle (Goldbutt)"
+* #6 #6.2 #6.2.8 "Thon im Öl, abgetropft"	
+* #6 #6.2 #6.2.9 "Flunder"
+* #6 #6.2 #6.2.10 "Heilbutt"
+* #6 #6.2 #6.2.11 "Seelachs (Kohlfisch, Pollack)"
+* #6 #6.2 #6.2.12 "Seezunge"
+* #6 #6.2 #6.2.13 "Thunfisch"
+* #6 #6.2 #6.2.14 "Sardine"
+* #6 #6.2 #6.2.15 "Seehecht"
 
 * #6 #6.3 "Meeresfrüchte, Krusten- und Schalentiere"
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	761	Miesmuschel, roh	
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	764	Kalmar (Seppia, Polpo, Calamare, Tintenfisch)	Seppia;Polpo;Calamare;Tintenfisch
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	766	Garnele (Shrip, Scampi, Crevette)	Shrimp;Scampi;Crevette
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	767	Scampi (Kaisergranat), roh	
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	1099	Krustentiere (Durchschnitt), roh	
-Fisch/Meeresfrüchte, Krusten- und Schalentiere	1497	Garnele, gekocht	Shrimp;Scampi;Crevette
+* #6 #6.3 #6.3.1 "Miesmuschel"
+* #6 #6.3 #6.3.2 "Kalmar (Seppia, Polpo, Calamare, Tintenfisch)"
+* #6 #6.3 #6.3.3 "Garnele (Shrimp, Scampi, Crevette)"
+* #6 #6.3 #6.3.4 "King Prawn (Riesencrevette, Black-Tiger-Crevette)"
+* #6 #6.3 #6.3.5 "Scampi (Kaisergranate)"
+* #6 #6.3 #6.3.6 "Hummer"
+* #6 #6.3 #6.3.7 "Königskrabbe"
+* #6 #6.3 #6.3.8 "Languste"
+* #6 #6.3 #6.3.9 "Taschenkrebs"
+* #6 #6.3 #6.3.10 "Soft-Shell Crab (Butterkrebs)"
 
 * #6 #6.4 "Süsswasserfische"
-Fisch/Süsswasserfische	211	Felche, roh	
-Fisch/Süsswasserfische	289	Forelle (Bachforelle), roh	
-Fisch/Süsswasserfische	416	Hecht, roh	
-Fisch/Süsswasserfische	765	Egli (Flussbarsch)	Flussbarsch
-Fisch/Süsswasserfische	13349	Forelle, ganz, gekocht (ohne Zusatz von Fett und Salz)	
-Fisch/Süsswasserfische;Fisch/Meeresfische	1098	Fisch (Durchschnitt), roh 	
+* #6 #6.4 #6.4.1 "Felche"
+* #6 #6.4 #6.4.2 "Forelle (Bachforelle)"
+* #6 #6.4 #6.4.3 "Hecht"
+* #6 #6.4 #6.4.4 "Egli (Flussbarsch)"
 
 
 //----- Fleisch und Innereien -----//
