@@ -280,63 +280,34 @@ Schwein, Kotelett
 Schwein, Voressen (Ragout)
 Schwein, Brustspitz
 Schwein, Geschnetzeltes
-Schwein, Hals, Steak, roh	
-Schwein, Nierstück, roh	
-Schwein, Runder Mocken (Plätzli), roh	
-Schwein, Schulter, Braten, roh	
-Schwein, Filet, roh	
-Schwein, Haxe, roh	
-Schwein, Eckstück (Plätzli), roh	Plätzli
-Schwein, Leber, roh	
-Zampone	Gefüllter Schweinsfuss
-Schwein, Schulter, Braten medium", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
-Schwein, Schulter, Braten well done", im Ofen gebraten (ohne Zugabe von Fett und Salz)"	
-Schweinefleisch (Durchschnitt exkl. Innereien, Kotelett, Haxe), roh	
-Cordon Bleu aus Schweinsplätzli, gebraten	
-Schwein, Filet, gebraten (ohne Zusatz von Fett und Salz)	
-Schwein, Eckstück, Plätzli, gebraten (ohne Zusatz von Fett und Salz)	
-Schwein, Kotelett, gebraten (ohne Zusatz von Fett und Salz)	
-Schwein, Hals, Steak, gebraten (ohne Zusatz von Fett und Salz)	
-Schwein, Geschnetzeltes, gebraten (ohne Zusatz von Fett und Salz)	
-Schwein, Haxe, geschmort (ohne zusatz von Fett und Salz)	
-
-Gehacktes (, Schwein,
-Geschnetzeltes (, , Schwein,	
-Plätzli (, , Schwein
-Leber (, , Schwein)
-Kotelett (, Schwein
+Schwein, Hals
+Schwein, Nierstück
+Schwein, Runder Mocken
+Schwein, Schulter
+Schwein, Filet	
+Schwein, Haxe	
+Schwein, Eckstück
+Schwein, Leber
+Schwein, Steak
+Schwein, Plätzli
+Schwein, Braten
+Schwein, Kotelett
 
 * #7 #7.6 "Sonstige Tierarten"
-Kaninchen, Filet, roh	
-Hase (Durchschnitt), roh	
-Pferd, Filet, roh	
-Kaninchen (Durchschnitt), roh	
-Ziege (Durchschnitt), roh	
-Pferd, Filet, gebraten (ohne Zusatz von Fett und Salz)	
-Kaninchen (Durchschnitt), gekocht (ohne Zusatz von Fett und Salz)	
+Kaninchen, Filet
+Kaninchen, ganz
+Pferd, Filet
 
 * #7 #7.7 "Wild"
-Hirsch, Entrecôte, roh	
-Reh, Ragout (Rehpfeffer), roh	
-Reh, Schnitzel, roh	
-Hirsch (Durchschnitt), roh	
-Reh (Durchschnitt), roh	
-Wildschwein (Durchschnitt), roh	
-Wildfleischterrine	
-Wildfleisch (Durchschnitt), roh	
-Wildfleisch (Durchschnitt), gekocht (ohne Zusatz von Fett und Salz)	
+Hirsch, Entrecôte
+Hirsch, Ragout (Hirschpeffer)
+Reh, Schnitzel
+Reh, Ragout (Rehpfeffer)
+Reh, Schnitzel
+Wildschwein
 
-
-
-Zunge (Durchschnitt aus Kalb und Rind), roh	
-Plätzli (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), roh 	
-Geschnetzeltes (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), roh	
-Gehacktes (Durchschnitt aus Rind, Kalb, Schwein, Poulet), roh	
-Leber (Durchschnitt aus Rind, Kalb, Schwein), roh	
-Plätzli (Durchschnitt aus Rind, Kalb, Schwein, Geflügel), paniert, gebraten	Fleisch paniert
-Fleisch (Durchschnitt exkl. Innereien), roh 	
-Kotelett (Durchschnitt aus Kalb, Schwein, Lamm), roh	
-
+* #7 #7.8 "Sonstiges Fleisch"
+* #7 #7.8 #7.8.1 "Rind/Schwein, Gehacktes (Hackfleisch)"
 
 //----- Fleisch- und Wurstwaren -----//
 * #8 #8.1 "Brühwurstware"
