@@ -96,7 +96,7 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(z.B. Hals, Schulter), in Würfeln"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#7.4.1 "Rindsvoressen"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#7.4.1 "Rind, Voressen (Ragout)"
 
 * ingredient[+].quantity.numerator.value = 300
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"

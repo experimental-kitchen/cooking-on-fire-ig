@@ -212,99 +212,97 @@ Description: "CodeSystem of the food (based on the Swiss food composition databa
 
 //----- Fleisch und Innereien -----//
 * #7 #7.1 "Geflügel"
-Poulet, Brust
-Poulet, Geschnetzeltes
-Poulet, Schenkel
-Poulet, Flügeli
-Poulet, ganz
-Truthahn, Brust
-Truthahn, Schnitzel
-Truthahn, Geschnetzeltes
-Truthahn, ganz
+* #7 #7.1 #7.1.1 "Poulet, Brust"
+* #7 #7.1 #7.1.2 "Poulet, Geschnetzeltes"
+* #7 #7.1 #7.1.3 "Poulet, Schenkel"
+* #7 #7.1 #7.1.4 "Poulet, Flügeli"
+* #7 #7.1 #7.1.5 "Poulet, ganz"
+* #7 #7.1 #7.1.6 "Truthahn, Brust"
+* #7 #7.1 #7.1.7 "Truthahn, Schnitzel"
+* #7 #7.1 #7.1.8 "Truthahn, Geschnetzeltes"
+* #7 #7.1 #7.1.9 "Truthahn, ganz"
 
 * #7 #7.2 "Kalb"
-Kalb, Brust
-Kalb, Kotelett
-Kalb, Nierstück
-Kalb, Leber
-Kalb, Gehacktes (Hackfleisch)
-Kalb, Geschnetzeltes
-Kalb, Runder Mocken
-Kalb, Voressen (Ragout)
-Kalb, Schulter
-Kalb, Filet
-Kalb, Haxe	
-Kalb, Eckstück
-Kalb, Milken (Bries)
-Kalb, Niere
-Kalb, Zunge
-Kalb, Steak
-Kalb, Braten
-Kalb, Plätzli
+* #7 #7.2 #7.2.1 "Kalb, Brust"
+* #7 #7.2 #7.2.2 "Kalb, Kotelett"
+* #7 #7.2 #7.2.3 "Kalb, Nierstück"
+* #7 #7.2 #7.2.4 "Kalb, Leber"
+* #7 #7.2 #7.2.5 "Kalb, Gehacktes (Hackfleisch)"
+* #7 #7.2 #7.2.6 "Kalb, Geschnetzeltes"
+* #7 #7.2 #7.2.7 "Kalb, Runder Mocken"
+* #7 #7.2 #7.2.8 "Kalb, Voressen (Ragout)"
+* #7 #7.2 #7.2.9 "Kalb, Schulter"
+* #7 #7.2 #7.2.10 "Kalb, Filet"
+* #7 #7.2 #7.2.11 "Kalb, Haxe"	
+* #7 #7.2 #7.2.12 "Kalb, Eckstück"
+* #7 #7.2 #7.2.13 "Kalb, Milken (Bries)"
+* #7 #7.2 #7.2.14 "Kalb, Niere"
+* #7 #7.2 #7.2.15 "Kalb, Zunge"
+* #7 #7.2 #7.2.16 "Kalb, Steak"
+* #7 #7.2 #7.2.17 "Kalb, Braten"
+* #7 #7.2 #7.2.18 "Kalb, Plätzli"
 
 * #7 #7.3 "Lamm, Schaf"
-Lamm/Schaf, Gigot (Keule)
-Lamm/Schaf, Kotelett
-Lamm/Schaf, Nierstück
-Lamm/Schaf, Racks
-Lamm/Schaf, Voressen (Ragout)
-Lamm/Schaf, Filet
+* #7 #7.3 #7.3.1 "Lamm/Schaf, Gigot (Keule)"
+* #7 #7.3 #7.3.2 "Lamm/Schaf, Kotelett"
+* #7 #7.3 #7.3.3 "Lamm/Schaf, Nierstück"
+* #7 #7.3 #7.3.4 "Lamm/Schaf, Racks"
+* #7 #7.3 #7.3.5 "Lamm/Schaf, Voressen (Ragout)"
+* #7 #7.3 #7.3.6 "Lamm/Schaf, Filet"
 
 * #7 #7.4 "Rind"
 * #7 #7.4 #7.4.1 "Rind, Voressen (Ragout)"
-Rind, Gehacktes (Hackfleisch)
-Rind, Entrecôte
-Rind, Hohrücken
-Rind, Runder Mocken
-Rind, Siedfleisch
-Rind, Geschnetzeltes
-Rind, Schulter, Braten
-Rind, Filet
-Rind, Eckstück
-Rind, Hals
-Rind, Zunge
-Rind, Leber
-Rind, Brust
-Rind, Schulter	
-Rind, Siedfleisch
-Rind, Plätzli
-Rind, Braten
-Rind, Steak
-Rind, Gulasch
-Rind, Hackplätzli
-Rind, Kotelett
+* #7 #7.4 #7.4.2 "Rind, Gehacktes (Hackfleisch)"
+* #7 #7.4 #7.4.3 "Rind, Entrecôte"
+* #7 #7.4 #7.4.4 "Rind, Hohrücken"
+* #7 #7.4 #7.4.5 "Rind, Runder Mocken"
+* #7 #7.4 #7.4.6 "Rind, Siedfleisch"
+* #7 #7.4 #7.4.7 "Rind, Geschnetzeltes"
+* #7 #7.4 #7.4.8 "Rind, Filet"
+* #7 #7.4 #7.4.9 "Rind, Eckstück"
+* #7 #7.4 #7.4.10 "Rind, Hals"
+* #7 #7.4 #7.4.11 "Rind, Zunge"
+* #7 #7.4 #7.4.12 "Rind, Leber"
+* #7 #7.4 #7.4.13 "Rind, Brust"
+* #7 #7.4 #7.4.14 "Rind, Schulter"
+* #7 #7.4 #7.4.15 "Rind, Plätzli"
+* #7 #7.4 #7.4.16 "Rind, Braten"
+* #7 #7.4 #7.4.17 "Rind, Steak"
+* #7 #7.4 #7.4.18 "Rind, Gulasch"
+* #7 #7.4 #7.4.19 "Rind, Hackplätzli"
+* #7 #7.4 #7.4.20 "Rind, Kotelett"
 
 * #7 #7.5 "Schwein"
-Schwein, Gehacktes (Hackfleisch)
-Schwein, Kotelett
-Schwein, Voressen (Ragout)
-Schwein, Brustspitz
-Schwein, Geschnetzeltes
-Schwein, Hals
-Schwein, Nierstück
-Schwein, Runder Mocken
-Schwein, Schulter
-Schwein, Filet	
-Schwein, Haxe	
-Schwein, Eckstück
-Schwein, Leber
-Schwein, Steak
-Schwein, Plätzli
-Schwein, Braten
-Schwein, Kotelett
+* #7 #7.5 #7.5.1 "Schwein, Gehacktes (Hackfleisch)"
+* #7 #7.5 #7.5.2 "Schwein, Kotelett"
+* #7 #7.5 #7.5.3 "Schwein, Voressen (Ragout)"
+* #7 #7.5 #7.5.4 "Schwein, Brustspitz"
+* #7 #7.5 #7.5.5 "Schwein, Geschnetzeltes"
+* #7 #7.5 #7.5.6 "Schwein, Hals"
+* #7 #7.5 #7.5.7 "Schwein, Nierstück"
+* #7 #7.5 #7.5.8 "Schwein, Runder Mocken"
+* #7 #7.5 #7.5.9 "Schwein, Schulter"
+* #7 #7.5 #7.5.10 "Schwein, Filet"	
+* #7 #7.5 #7.5.11 "Schwein, Haxe"	
+* #7 #7.5 #7.5.12 "Schwein, Eckstück"
+* #7 #7.5 #7.5.13 "Schwein, Leber"
+* #7 #7.5 #7.5.14 "Schwein, Steak"
+* #7 #7.5 #7.5.15 "Schwein, Plätzli"
+* #7 #7.5 #7.5.16 "Schwein, Braten"
+* #7 #7.5 #7.5.17 "Schwein, Kotelett"
 
 * #7 #7.6 "Sonstige Tierarten"
-Kaninchen, Filet
-Kaninchen, ganz
-Pferd, Filet
+* #7 #7.6 #7.6.1 "Kaninchen, Filet"
+* #7 #7.6 #7.6.2 "Kaninchen, ganz"
+* #7 #7.6 #7.6.3 "Pferd, Filet"
 
 * #7 #7.7 "Wild"
-Hirsch, Entrecôte
-Hirsch, Ragout (Hirschpeffer)
-Reh, Schnitzel
-Reh, Ragout (Rehpfeffer)
-Reh, Schnitzel
-Wildschwein
+* #7 #7.7 #7.7.1 "Hirsch, Entrecôte"
+* #7 #7.7 #7.7.2 "Hirsch, Ragout (Hirschpeffer)"
+* #7 #7.7 #7.7.3 "Reh, Schnitzel"
+* #7 #7.7 #7.7.4 "Reh, Ragout (Rehpfeffer)"
+* #7 #7.7 #7.7.5 "Reh, Schnitzel"
+* #7 #7.7 #7.7.6 "Wildschwein"
 
 * #7 #7.8 "Sonstiges Fleisch"
 * #7 #7.8 #7.8.1 "Rind/Schwein, Gehacktes (Hackfleisch)"
