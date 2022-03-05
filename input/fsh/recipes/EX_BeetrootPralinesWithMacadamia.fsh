@@ -83,14 +83,14 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#1.7.1 "Wasser"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#1.6.1 "Leitungswasser"
 
 * ingredient[+].quantity.numerator.value = 50
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "entsteint, fein geschnitten"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#10.3.1 "Dörrpflaumen"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#10.3.1 "Pflaume, getrocknet (Dörrpflaume)"
 
 
 Instance: 10f76fe4-cc8e-4746-8c43-1b7ec7cad24a

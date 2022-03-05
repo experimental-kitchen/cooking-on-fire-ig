@@ -137,7 +137,7 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "Tranchen"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#8.4.1 "Bresaola"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#8.3.11 "Bresaola"
 
 * ingredient[+].quantity.numerator.value = 0.5
 * ingredient[=].quantity.numerator = CoFUnit#Bund "Bund"
