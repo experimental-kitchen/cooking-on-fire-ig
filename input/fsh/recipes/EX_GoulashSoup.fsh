@@ -103,7 +103,7 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfeln"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.2.1 "Kartoffeln festkochend"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.2.1 "Kartoffel, festkochend"
 
 * ingredient[+].quantity.numerator.value = 200
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
@@ -136,7 +136,7 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
 * ingredient[=].quantity.denominator.value = 3
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#16.7.1 "Tomatenpüree"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.2.7 "Tomatenpüree"
 
 * ingredient[+].quantity.numerator.value = 1
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"

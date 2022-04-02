@@ -82,13 +82,13 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "(ca. 25 x 48 cm)"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.7.1 "Kuchenteig rechteckig"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#12.7.1 "Kuchenteig, rechteckig"
 
 * ingredient[+].quantity.numerator.value = 150
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#13.3.1 "Griechisches Joghurt nature"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#13.3.1 "Griechisches Naturejoghurt"
 
 
 Instance: 7f18f11f-f85f-4801-a012-076ac23fd449
@@ -102,7 +102,7 @@ Usage: #inline
 * ingredient[=].quantity.numerator = CoFUnit#g "Gramm"
 * ingredient[=].quantity.denominator.value = 2
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.2 "Spargeln grün"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.1.2 "Spargel, grün"
 
 * ingredient[+].quantity.numerator.value = 0.5
 * ingredient[=].quantity.numerator = CoFUnit#Bund "Bund"

@@ -71,7 +71,7 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "in Würfel"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.2.1 "Rande gedämpft"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#11.2.1 "Rande, gedämpft"
 
 * ingredient[+].quantity.numerator.value = 2.5
 * ingredient[=].quantity.numerator = CoFUnit#EL "Esslöffel"
@@ -105,5 +105,5 @@ Usage: #inline
 * ingredient[=].quantity.denominator.value = 4
 * ingredient[=].quantity.denominator = CoFUnit#Portion(en) "Portion(en)"
 * ingredient[=].substanceCodeableConcept.extension[comment].valueString = "fein gehackt"
-* ingredient[=].substanceCodeableConcept.coding = $CoFFood#14.1.9 "Macadamianüsse"
+* ingredient[=].substanceCodeableConcept.coding = $CoFFood#14.1.9 "Macadamianuss"
 
